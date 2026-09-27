@@ -3,14 +3,34 @@
 The CBEFS **biogeochemistry** — a data repository of the oceansensing ocean map system: its own
 Pages site, its own schedule, its own gigabyte, holding no code of its own.
 
-**Nothing is published yet** (2026-09-27). `PLAN.md` is the founding plan;
+**Built and rehearsed 2026-09-27; not yet live** (it waits on the owner's
+secrets). `PLAN.md` is the founding plan;
 `CLAUDE.md` carries what must not be got wrong and the shared doc doctrine.
 
-## What it will publish
+## What it publishes
 
 The Chesapeake Bay Environmental Forecasting System's **biogeochemistry**:
 dissolved oxygen, pH, total alkalinity and aragonite saturation state
 (Ω_arag), each at the surface and the bottom.
+
+| root | quantity | unit |
+| --- | --- | --- |
+| `o2-cbefs.json`, `o2-cbefs-bottom.json` | dissolved oxygen | mmol m-3 |
+| `ph-cbefs.json`, `ph-cbefs-bottom.json` | pH | 1 |
+| `talk-cbefs.json`, `talk-cbefs-bottom.json` | total alkalinity | mmol m-3 (the file's meq m-3) |
+| `omega-cbefs.json`, `omega-cbefs-bottom.json` | aragonite saturation state | 1 |
+
+The daily mean stamped noon UTC on today's date. About 0.8 MB each, 6.1 MB a
+tree (measured 2026-09-27).
+
+Every root is one regional grid at 0.007 degree (336 x 438, `regional:
+true`), `source: Chesapeake Bay Environmental Forecast System (CBEFS),
+Virginia Institute of Marine Science` — the citation the data's license asks
+for. **A bottom root is s-level 0** (ROMS counts from the seabed up), and its
+header carries no depth, as Mercator's `bottomt` does not. The fetcher is the
+site's `scripts/fetch-cbefs.py`, shared by the three CBEFS repositories and
+scoped here with `--only=`; the workflow is dispatch-only until its first
+dispatched run publishes.
 
 These products are published **operationally but not drawn on the website's
 map** — the owner's call, 2026-09-27. The map's status line still reports
