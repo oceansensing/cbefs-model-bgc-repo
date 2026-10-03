@@ -1,0 +1,39 @@
+{
+ "schema": 1,
+ "generated": "2026-10-03T20:12:15Z",
+ "mode": "full",
+ "fates": {
+  "o2-cbefs": "held",
+  "o2-cbefs-bottom": "held",
+  "ph-cbefs": "held",
+  "ph-cbefs-bottom": "held",
+  "talk-cbefs": "held",
+  "talk-cbefs-bottom": "held",
+  "omega-cbefs": "held",
+  "omega-cbefs-bottom": "held"
+ },
+ "reasons": {
+  "o2-cbefs": "step cbefs exit 1",
+  "o2-cbefs-bottom": "step cbefs exit 1",
+  "ph-cbefs": "step cbefs exit 1",
+  "ph-cbefs-bottom": "step cbefs exit 1",
+  "talk-cbefs": "step cbefs exit 1",
+  "talk-cbefs-bottom": "step cbefs exit 1",
+  "omega-cbefs": "step cbefs exit 1",
+  "omega-cbefs-bottom": "step cbefs exit 1"
+ },
+ "built": {},
+ "withheld": {},
+ "deploy": true,
+ "notes": [],
+ "behind": [
+  "o2-cbefs (32.2 h, held)",
+  "o2-cbefs-bottom (32.2 h, held)",
+  "ph-cbefs (32.2 h, held)",
+  "ph-cbefs-bottom (32.2 h, held)",
+  "talk-cbefs (32.2 h, held)",
+  "talk-cbefs-bottom (32.2 h, held)",
+  "omega-cbefs (32.2 h, held)",
+  "omega-cbefs-bottom (32.2 h, held)"
+ ]
+}

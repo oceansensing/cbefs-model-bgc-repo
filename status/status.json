@@ -1,0 +1,178 @@
+{
+ "schema": 2,
+ "contract": 1,
+ "generated": "2026-10-03T20:12:15Z",
+ "mode": "full",
+ "run": {
+  "id": "37150666596",
+  "url": "https://github.com/oceansensing/cbefs-model-bgc-repo/actions/runs/37150666596"
+ },
+ "schedule": {
+  "crons": [
+   "27 1,7,13,19 * * *"
+  ],
+  "longestGapHours": 6.0
+ },
+ "products": {
+  "o2-cbefs": {
+   "title": "CBEFS surface dissolved oxygen",
+   "roots": [
+    "o2-cbefs.json"
+   ],
+   "fate": "held",
+   "reason": "step cbefs exit 1",
+   "checked": "2026-10-02T13:37:49Z",
+   "updated": "2026-10-02T13:37:49Z",
+   "hour": "2026-10-02T12:00:00Z",
+   "modelRun": "2026-10-02T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-02T12:00:00Z"
+   ],
+   "stale": true,
+   "staleCause": "ours",
+   "ageHours": 32.2,
+   "nearestOffsetHours": 32.2
+  },
+  "o2-cbefs-bottom": {
+   "title": "CBEFS bottom dissolved oxygen",
+   "roots": [
+    "o2-cbefs-bottom.json"
+   ],
+   "fate": "held",
+   "reason": "step cbefs exit 1",
+   "checked": "2026-10-02T13:37:49Z",
+   "updated": "2026-10-02T13:37:49Z",
+   "hour": "2026-10-02T12:00:00Z",
+   "modelRun": "2026-10-02T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-02T12:00:00Z"
+   ],
+   "stale": true,
+   "staleCause": "ours",
+   "ageHours": 32.2,
+   "nearestOffsetHours": 32.2
+  },
+  "ph-cbefs": {
+   "title": "CBEFS surface pH",
+   "roots": [
+    "ph-cbefs.json"
+   ],
+   "fate": "held",
+   "reason": "step cbefs exit 1",
+   "checked": "2026-10-02T13:37:49Z",
+   "updated": "2026-10-02T13:37:49Z",
+   "hour": "2026-10-02T12:00:00Z",
+   "modelRun": "2026-10-02T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-02T12:00:00Z"
+   ],
+   "stale": true,
+   "staleCause": "ours",
+   "ageHours": 32.2,
+   "nearestOffsetHours": 32.2
+  },
+  "ph-cbefs-bottom": {
+   "title": "CBEFS bottom pH",
+   "roots": [
+    "ph-cbefs-bottom.json"
+   ],
+   "fate": "held",
+   "reason": "step cbefs exit 1",
+   "checked": "2026-10-02T13:37:49Z",
+   "updated": "2026-10-02T13:37:49Z",
+   "hour": "2026-10-02T12:00:00Z",
+   "modelRun": "2026-10-02T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-02T12:00:00Z"
+   ],
+   "stale": true,
+   "staleCause": "ours",
+   "ageHours": 32.2,
+   "nearestOffsetHours": 32.2
+  },
+  "talk-cbefs": {
+   "title": "CBEFS surface total alkalinity",
+   "roots": [
+    "talk-cbefs.json"
+   ],
+   "fate": "held",
+   "reason": "step cbefs exit 1",
+   "checked": "2026-10-02T13:37:49Z",
+   "updated": "2026-10-02T13:37:49Z",
+   "hour": "2026-10-02T12:00:00Z",
+   "modelRun": "2026-10-02T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-02T12:00:00Z"
+   ],
+   "stale": true,
+   "staleCause": "ours",
+   "ageHours": 32.2,
+   "nearestOffsetHours": 32.2
+  },
+  "talk-cbefs-bottom": {
+   "title": "CBEFS bottom total alkalinity",
+   "roots": [
+    "talk-cbefs-bottom.json"
+   ],
+   "fate": "held",
+   "reason": "step cbefs exit 1",
+   "checked": "2026-10-02T13:37:49Z",
+   "updated": "2026-10-02T13:37:49Z",
+   "hour": "2026-10-02T12:00:00Z",
+   "modelRun": "2026-10-02T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-02T12:00:00Z"
+   ],
+   "stale": true,
+   "staleCause": "ours",
+   "ageHours": 32.2,
+   "nearestOffsetHours": 32.2
+  },
+  "omega-cbefs": {
+   "title": "CBEFS surface aragonite saturation",
+   "roots": [
+    "omega-cbefs.json"
+   ],
+   "fate": "held",
+   "reason": "step cbefs exit 1",
+   "checked": "2026-10-02T13:37:49Z",
+   "updated": "2026-10-02T13:37:49Z",
+   "hour": "2026-10-02T12:00:00Z",
+   "modelRun": "2026-10-02T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-02T12:00:00Z"
+   ],
+   "stale": true,
+   "staleCause": "ours",
+   "ageHours": 32.2,
+   "nearestOffsetHours": 32.2
+  },
+  "omega-cbefs-bottom": {
+   "title": "CBEFS bottom aragonite saturation",
+   "roots": [
+    "omega-cbefs-bottom.json"
+   ],
+   "fate": "held",
+   "reason": "step cbefs exit 1",
+   "checked": "2026-10-02T13:37:49Z",
+   "updated": "2026-10-02T13:37:49Z",
+   "hour": "2026-10-02T12:00:00Z",
+   "modelRun": "2026-10-02T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-02T12:00:00Z"
+   ],
+   "stale": true,
+   "staleCause": "ours",
+   "ageHours": 32.2,
+   "nearestOffsetHours": 32.2
+  }
+ }
+}
