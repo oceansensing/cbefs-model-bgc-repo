@@ -1,0 +1,21 @@
+{
+ "schema": 1,
+ "generated": "2026-10-10T19:33:37Z",
+ "mode": "full",
+ "fates": {
+  "o2-cbefs": "fresh",
+  "o2-cbefs-bottom": "fresh",
+  "ph-cbefs": "fresh",
+  "ph-cbefs-bottom": "fresh",
+  "talk-cbefs": "fresh",
+  "talk-cbefs-bottom": "fresh",
+  "omega-cbefs": "fresh",
+  "omega-cbefs-bottom": "fresh"
+ },
+ "reasons": {},
+ "built": {},
+ "withheld": {},
+ "deploy": true,
+ "notes": [],
+ "behind": []
+}

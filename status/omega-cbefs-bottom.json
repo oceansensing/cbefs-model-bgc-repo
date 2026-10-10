@@ -1,0 +1,21 @@
+{
+ "schema": 1,
+ "product": "omega-cbefs-bottom",
+ "title": "CBEFS bottom aragonite saturation",
+ "fate": "fresh",
+ "reason": null,
+ "checked": "2026-10-10T19:33:37Z",
+ "updated": "2026-10-10T13:36:25Z",
+ "hour": "2026-10-10T12:00:00Z",
+ "modelRun": "2026-10-10T00:00:00Z",
+ "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+ "hours": [
+  "2026-10-10T12:00:00Z"
+ ],
+ "files": {
+  "omega-cbefs-bottom.json": {
+   "bytes": 776940,
+   "sha256": "346d3167af4f1d5f3001401c3416db3cf3413aa0c76cddb073a48508ce90f498"
+  }
+ }
+}
