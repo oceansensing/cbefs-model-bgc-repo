@@ -32,7 +32,7 @@ timeout_minutes = 20
 
 # Named after the server all three CBEFS repositories read.
 [steps.cbefs]
-cmd = ["python3", "scripts/fetch-cbefs.py", "--only=o2-cbefs,o2-cbefs-bottom,ph-cbefs,ph-cbefs-bottom,talk-cbefs,talk-cbefs-bottom,omega-cbefs,omega-cbefs-bottom"]
+cmd = ["python3", "scripts/fetch-cbefs.py", "--only=o2-cbefs,o2-cbefs-bottom,ph-cbefs,ph-cbefs-bottom,talk-cbefs,talk-cbefs-bottom,omega-cbefs,omega-cbefs-bottom,no3-cbefs,nh4-cbefs,po4-cbefs,oxygen-cbefs"]
 lane = "vims-thredds"
 
 [products.o2-cbefs]
@@ -98,3 +98,67 @@ roots = ["omega-cbefs-bottom.json"]
 writes = ["omega-cbefs-bottom.json"]
 max_age_hours = 20
 namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=omega-cbefs-bottom"]
+
+# **Nitrate at fixed depths, R2's alone** (2026-10-10; the site's fetcher,
+# LEVELS): the averages file's daily mean at the first 17 of Mercator's
+# depths, one root a depth named for it to the meter.
+[products.no3-cbefs]
+title = "CBEFS nitrate at Mercator's depths"
+step = "cbefs"
+roots = ["no3-cbefs-0m.json", "no3-cbefs-2m.json", "no3-cbefs-3m.json", "no3-cbefs-4m.json",
+         "no3-cbefs-5m.json", "no3-cbefs-6m.json", "no3-cbefs-8m.json", "no3-cbefs-10m.json",
+         "no3-cbefs-11m.json", "no3-cbefs-13m.json", "no3-cbefs-16m.json", "no3-cbefs-18m.json",
+         "no3-cbefs-22m.json", "no3-cbefs-25m.json", "no3-cbefs-29m.json", "no3-cbefs-34m.json",
+         "no3-cbefs-40m.json"]
+writes = ["no3-cbefs-*m.json"]
+max_age_hours = 30
+r2_only = true
+namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=no3-cbefs"]
+
+# **Ammonium at fixed depths, R2's alone** (2026-10-10; the site's fetcher,
+# LEVELS): the averages file's daily mean at the first 17 of Mercator's
+# depths, one root a depth named for it to the meter.
+[products.nh4-cbefs]
+title = "CBEFS ammonium at Mercator's depths"
+step = "cbefs"
+roots = ["nh4-cbefs-0m.json", "nh4-cbefs-2m.json", "nh4-cbefs-3m.json", "nh4-cbefs-4m.json",
+         "nh4-cbefs-5m.json", "nh4-cbefs-6m.json", "nh4-cbefs-8m.json", "nh4-cbefs-10m.json",
+         "nh4-cbefs-11m.json", "nh4-cbefs-13m.json", "nh4-cbefs-16m.json", "nh4-cbefs-18m.json",
+         "nh4-cbefs-22m.json", "nh4-cbefs-25m.json", "nh4-cbefs-29m.json", "nh4-cbefs-34m.json",
+         "nh4-cbefs-40m.json"]
+writes = ["nh4-cbefs-*m.json"]
+max_age_hours = 30
+r2_only = true
+namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=nh4-cbefs"]
+
+# **Phosphate at fixed depths, R2's alone** (2026-10-10; the site's fetcher,
+# LEVELS): the averages file's daily mean at the first 17 of Mercator's
+# depths, one root a depth named for it to the meter.
+[products.po4-cbefs]
+title = "CBEFS phosphate at Mercator's depths"
+step = "cbefs"
+roots = ["po4-cbefs-0m.json", "po4-cbefs-2m.json", "po4-cbefs-3m.json", "po4-cbefs-4m.json",
+         "po4-cbefs-5m.json", "po4-cbefs-6m.json", "po4-cbefs-8m.json", "po4-cbefs-10m.json",
+         "po4-cbefs-11m.json", "po4-cbefs-13m.json", "po4-cbefs-16m.json", "po4-cbefs-18m.json",
+         "po4-cbefs-22m.json", "po4-cbefs-25m.json", "po4-cbefs-29m.json", "po4-cbefs-34m.json",
+         "po4-cbefs-40m.json"]
+writes = ["po4-cbefs-*m.json"]
+max_age_hours = 30
+r2_only = true
+namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=po4-cbefs"]
+
+# **Dissolved oxygen at fixed depths, R2's alone** (2026-10-10; the site's fetcher,
+# LEVELS): the averages file's daily mean at the first 17 of Mercator's
+# depths, one root a depth named for it to the meter.
+[products.oxygen-cbefs]
+title = "CBEFS dissolved oxygen at Mercator's depths"
+step = "cbefs"
+roots = ["oxygen-cbefs-0m.json", "oxygen-cbefs-2m.json", "oxygen-cbefs-3m.json", "oxygen-cbefs-4m.json",
+         "oxygen-cbefs-5m.json", "oxygen-cbefs-6m.json", "oxygen-cbefs-8m.json", "oxygen-cbefs-10m.json",
+         "oxygen-cbefs-11m.json", "oxygen-cbefs-13m.json", "oxygen-cbefs-16m.json", "oxygen-cbefs-18m.json",
+         "oxygen-cbefs-22m.json", "oxygen-cbefs-25m.json", "oxygen-cbefs-29m.json", "oxygen-cbefs-34m.json",
+         "oxygen-cbefs-40m.json"]
+writes = ["oxygen-cbefs-*m.json"]
+max_age_hours = 30
+r2_only = true
+namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=oxygen-cbefs"]

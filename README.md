@@ -23,6 +23,24 @@ dissolved oxygen, pH, total alkalinity and aragonite saturation state
 The daily mean stamped noon UTC on today's date. About 0.8 MB each, 6.1 MB a
 tree (measured 2026-09-27).
 
+## Published to R2 alone (since 2026-10-10)
+
+Declared `r2_only` in `pipeline/products.toml`: the same run builds these,
+they are left out of this repository's Pages site and its status, and the R2
+job publishes them beside the rest (the site pipeline's D13, its note of
+2026-10-09). Their roots stay on the `published` branch, as every product's do.
+
+| root | quantity | unit |
+| --- | --- | --- |
+| `no3-cbefs-<depth>m.json` | nitrate at each of the first 17 of Mercator's depths, 0.494 to 40.344 m, interpolated from the model's 20 terrain-following levels below the datum, daily means; one root a depth named for it to the meter (`-0m` … `-40m`) | mmol m-3 |
+| `nh4-cbefs-<depth>m.json` | ammonium at the same depths | mmol m-3 |
+| `po4-cbefs-<depth>m.json` | phosphate at the same depths | mmol m-3 |
+| `oxygen-cbefs-<depth>m.json` | dissolved oxygen at the same depths | mmol m-3 |
+
+The nutrients dip slightly below zero where the model undershoots (nitrate to
+−1.3 mmol m-3, measured on the 2026-10-10 run): the model's values, published
+as they are.
+
 Every root is one regional grid at 0.007 degree (336 x 438, `regional:
 true`), `source: Chesapeake Bay Environmental Forecast System (CBEFS),
 Virginia Institute of Marine Science` — the citation the data's license asks
