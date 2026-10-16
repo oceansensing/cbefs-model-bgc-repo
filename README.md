@@ -36,6 +36,9 @@ job publishes them beside the rest (the site pipeline's D13, its note of
 | `nh4-cbefs-<depth>m.json` | ammonium at the same depths | mmol m-3 |
 | `po4-cbefs-<depth>m.json` | phosphate at the same depths | mmol m-3 |
 | `oxygen-cbefs-<depth>m.json` | dissolved oxygen at the same depths | mmol m-3 |
+| `acidity-cbefs-<depth>m.json` | pH at the same depths (since 2026-10-16; named for the quantity, `ph-cbefs` being the surface's) | none |
+| `alkalinity-cbefs-<depth>m.json` | total alkalinity at the same depths (since 2026-10-16) | mmol m-3 |
+| `aragonite-cbefs-<depth>m.json` | aragonite saturation state at the same depths (since 2026-10-16) | none |
 
 The nutrients dip slightly below zero where the model undershoots (nitrate to
 −1.3 mmol m-3, measured on the 2026-10-10 run): the model's values, published

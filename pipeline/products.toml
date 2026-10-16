@@ -1,4 +1,4 @@
-# What this repository publishes: CBEFS biogeochemistry — dissolved oxygen, pH, total alkalinity and aragonite saturation, at the surface and the bottom, from VIMS's Chesapeake Bay
+# What this repository publishes: CBEFS biogeochemistry — dissolved oxygen, pH, total alkalinity and aragonite saturation, at the surface, at fixed depths and at the bottom, and nutrients at fixed depths, from VIMS's Chesapeake Bay
 # Environmental Forecast System (CBEFS), read by OPeNDAP from tds.vims.edu —
 # published, not drawn on the website's map (the owner, 2026-09-27). Cite
 # CBEFS and the Virginia Institute of Marine Science wherever it is shown:
@@ -32,7 +32,7 @@ timeout_minutes = 20
 
 # Named after the server all three CBEFS repositories read.
 [steps.cbefs]
-cmd = ["python3", "scripts/fetch-cbefs.py", "--only=o2-cbefs,o2-cbefs-bottom,ph-cbefs,ph-cbefs-bottom,talk-cbefs,talk-cbefs-bottom,omega-cbefs,omega-cbefs-bottom,no3-cbefs,nh4-cbefs,po4-cbefs,oxygen-cbefs"]
+cmd = ["python3", "scripts/fetch-cbefs.py", "--only=o2-cbefs,o2-cbefs-bottom,ph-cbefs,ph-cbefs-bottom,talk-cbefs,talk-cbefs-bottom,omega-cbefs,omega-cbefs-bottom,no3-cbefs,nh4-cbefs,po4-cbefs,oxygen-cbefs,acidity-cbefs,alkalinity-cbefs,aragonite-cbefs"]
 lane = "vims-thredds"
 
 [products.o2-cbefs]
@@ -162,3 +162,54 @@ writes = ["oxygen-cbefs-*m.json"]
 max_age_hours = 30
 r2_only = true
 namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=oxygen-cbefs"]
+
+# **pH at fixed depths, R2's alone** (2026-10-16; the site's fetcher,
+# LEVELS): the averages file's daily mean at the first 17 of Mercator's
+# depths, one root a depth named for it to the meter, between the surface's
+# and the bottom's roots above.
+[products.acidity-cbefs]
+title = "CBEFS pH at Mercator's depths"
+step = "cbefs"
+roots = ["acidity-cbefs-0m.json", "acidity-cbefs-2m.json", "acidity-cbefs-3m.json", "acidity-cbefs-4m.json",
+         "acidity-cbefs-5m.json", "acidity-cbefs-6m.json", "acidity-cbefs-8m.json", "acidity-cbefs-10m.json",
+         "acidity-cbefs-11m.json", "acidity-cbefs-13m.json", "acidity-cbefs-16m.json", "acidity-cbefs-18m.json",
+         "acidity-cbefs-22m.json", "acidity-cbefs-25m.json", "acidity-cbefs-29m.json", "acidity-cbefs-34m.json",
+         "acidity-cbefs-40m.json"]
+writes = ["acidity-cbefs-*m.json"]
+max_age_hours = 30
+r2_only = true
+namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=acidity-cbefs"]
+
+# **Total alkalinity at fixed depths, R2's alone** (2026-10-16; the site's fetcher,
+# LEVELS): the averages file's daily mean at the first 17 of Mercator's
+# depths, one root a depth named for it to the meter, between the surface's
+# and the bottom's roots above.
+[products.alkalinity-cbefs]
+title = "CBEFS total alkalinity at Mercator's depths"
+step = "cbefs"
+roots = ["alkalinity-cbefs-0m.json", "alkalinity-cbefs-2m.json", "alkalinity-cbefs-3m.json", "alkalinity-cbefs-4m.json",
+         "alkalinity-cbefs-5m.json", "alkalinity-cbefs-6m.json", "alkalinity-cbefs-8m.json", "alkalinity-cbefs-10m.json",
+         "alkalinity-cbefs-11m.json", "alkalinity-cbefs-13m.json", "alkalinity-cbefs-16m.json", "alkalinity-cbefs-18m.json",
+         "alkalinity-cbefs-22m.json", "alkalinity-cbefs-25m.json", "alkalinity-cbefs-29m.json", "alkalinity-cbefs-34m.json",
+         "alkalinity-cbefs-40m.json"]
+writes = ["alkalinity-cbefs-*m.json"]
+max_age_hours = 30
+r2_only = true
+namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=alkalinity-cbefs"]
+
+# **Aragonite saturation at fixed depths, R2's alone** (2026-10-16; the site's fetcher,
+# LEVELS): the averages file's daily mean at the first 17 of Mercator's
+# depths, one root a depth named for it to the meter, between the surface's
+# and the bottom's roots above.
+[products.aragonite-cbefs]
+title = "CBEFS aragonite saturation at Mercator's depths"
+step = "cbefs"
+roots = ["aragonite-cbefs-0m.json", "aragonite-cbefs-2m.json", "aragonite-cbefs-3m.json", "aragonite-cbefs-4m.json",
+         "aragonite-cbefs-5m.json", "aragonite-cbefs-6m.json", "aragonite-cbefs-8m.json", "aragonite-cbefs-10m.json",
+         "aragonite-cbefs-11m.json", "aragonite-cbefs-13m.json", "aragonite-cbefs-16m.json", "aragonite-cbefs-18m.json",
+         "aragonite-cbefs-22m.json", "aragonite-cbefs-25m.json", "aragonite-cbefs-29m.json", "aragonite-cbefs-34m.json",
+         "aragonite-cbefs-40m.json"]
+writes = ["aragonite-cbefs-*m.json"]
+max_age_hours = 30
+r2_only = true
+namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=aragonite-cbefs"]
