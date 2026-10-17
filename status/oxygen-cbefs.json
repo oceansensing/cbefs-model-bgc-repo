@@ -1,0 +1,85 @@
+{
+ "schema": 1,
+ "product": "oxygen-cbefs",
+ "title": "CBEFS dissolved oxygen at Mercator's depths",
+ "fate": "fresh",
+ "reason": null,
+ "checked": "2026-10-17T13:32:48Z",
+ "updated": "2026-10-17T13:32:48Z",
+ "hour": "2026-10-17T12:00:00Z",
+ "modelRun": "2026-10-17T00:00:00Z",
+ "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+ "hours": [
+  "2026-10-17T12:00:00Z"
+ ],
+ "files": {
+  "oxygen-cbefs-0m.json": {
+   "bytes": 782613,
+   "sha256": "652512059e984bcbc3fe3d75e5d154bb7ef578cfd26351ec599ad5f6961c6df6"
+  },
+  "oxygen-cbefs-10m.json": {
+   "bytes": 763148,
+   "sha256": "359e0bdbbbe861304f1f0c2f150b9ca51d62b5bf771c889ab2e901f4c52a04e3"
+  },
+  "oxygen-cbefs-11m.json": {
+   "bytes": 760371,
+   "sha256": "788611d4c6ad4aea16f57c434e92e02feafb9ff8324770d436bdb2afa255655d"
+  },
+  "oxygen-cbefs-13m.json": {
+   "bytes": 756980,
+   "sha256": "687929ab182e494d72f4aa1ce49ded81be0a8abad0303385830c54e036658548"
+  },
+  "oxygen-cbefs-16m.json": {
+   "bytes": 753941,
+   "sha256": "9cbacf1d3c363fe948e3a281f2326838261568540af2f891c50886ef99c0c63f"
+  },
+  "oxygen-cbefs-18m.json": {
+   "bytes": 751044,
+   "sha256": "b80c66daa3c61d801d57ea4721d9404e3dc87141202ac02f7e311d23424fad91"
+  },
+  "oxygen-cbefs-22m.json": {
+   "bytes": 747856,
+   "sha256": "d263cf821215fc06bcc6263e687837077ca9653166c1b818007995294a3dd9bf"
+  },
+  "oxygen-cbefs-25m.json": {
+   "bytes": 744794,
+   "sha256": "226333155482ad5f434d9d890ffe33165ed1ff6e8bf135e168278024727b12cc"
+  },
+  "oxygen-cbefs-29m.json": {
+   "bytes": 740853,
+   "sha256": "1ade5dc2174e7fbe93ef05b747d712997f04fd55cda8d15cade1da13c6284465"
+  },
+  "oxygen-cbefs-2m.json": {
+   "bytes": 780275,
+   "sha256": "1130512ee030618d9c46f12c908de1aa26b0b5d6d2a64dd6a156170b7e309f1d"
+  },
+  "oxygen-cbefs-34m.json": {
+   "bytes": 737271,
+   "sha256": "a5a1a555ae77ffdf1c318d40ef9883c948251e5ac1f1e4963d1f79a770350ff7"
+  },
+  "oxygen-cbefs-3m.json": {
+   "bytes": 776633,
+   "sha256": "898019d7e73ffe39eff33f846cbf6b7b71ce5a8c0652eff7d983aa94280f7dfa"
+  },
+  "oxygen-cbefs-40m.json": {
+   "bytes": 736253,
+   "sha256": "46f4fdd02bf6c0704e8d502ce5d5a6c5f66f7fd337ac7d52450896fb339420c1"
+  },
+  "oxygen-cbefs-4m.json": {
+   "bytes": 773970,
+   "sha256": "af3f9314a927b5bcb715268aa224670703de1fcbb1999c44ead6e4ed694ef697"
+  },
+  "oxygen-cbefs-5m.json": {
+   "bytes": 771287,
+   "sha256": "015f9ed6cb6c4791004ddae3325df73ffa44e5d15bc5f467e9aa5fb6523e9590"
+  },
+  "oxygen-cbefs-6m.json": {
+   "bytes": 768432,
+   "sha256": "5cbb1a67418f296ec5c6a8dfa56b6774c8f7f4541ebf6fcd676e54dbb743b1a3"
+  },
+  "oxygen-cbefs-8m.json": {
+   "bytes": 765732,
+   "sha256": "65f11c29a6de55df6ca962155e5f0e7dd1b8504ecab4097e469fcafc8ced3969"
+  }
+ }
+}

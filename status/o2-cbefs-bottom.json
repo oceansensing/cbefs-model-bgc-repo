@@ -1,0 +1,21 @@
+{
+ "schema": 1,
+ "product": "o2-cbefs-bottom",
+ "title": "CBEFS bottom dissolved oxygen",
+ "fate": "fresh",
+ "reason": null,
+ "checked": "2026-10-17T13:32:48Z",
+ "updated": "2026-10-17T13:32:48Z",
+ "hour": "2026-10-17T12:00:00Z",
+ "modelRun": "2026-10-17T00:00:00Z",
+ "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+ "hours": [
+  "2026-10-17T12:00:00Z"
+ ],
+ "files": {
+  "o2-cbefs-bottom.json": {
+   "bytes": 782537,
+   "sha256": "16bf9c7481213e100ead991a769bae8e63f97b94d4fa12a5a38fdbff790d4e82"
+  }
+ }
+}

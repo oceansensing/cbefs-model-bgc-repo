@@ -1,0 +1,430 @@
+{
+ "schema": 2,
+ "contract": 1,
+ "generated": "2026-10-17T13:32:48Z",
+ "mode": "full",
+ "run": {
+  "id": "39036945532",
+  "url": "https://github.com/oceansensing/cbefs-model-bgc-repo/actions/runs/39036945532"
+ },
+ "schedule": {
+  "crons": [
+   "27 1,7,13,19 * * *"
+  ],
+  "longestGapHours": 6.0
+ },
+ "products": {
+  "o2-cbefs": {
+   "title": "CBEFS surface dissolved oxygen",
+   "roots": [
+    "o2-cbefs.json"
+   ],
+   "fate": "fresh",
+   "reason": null,
+   "checked": "2026-10-17T13:32:48Z",
+   "updated": "2026-10-17T13:32:48Z",
+   "hour": "2026-10-17T12:00:00Z",
+   "modelRun": "2026-10-17T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-17T12:00:00Z"
+   ],
+   "stale": false,
+   "staleCause": null,
+   "ageHours": 1.55,
+   "nearestOffsetHours": 1.55
+  },
+  "o2-cbefs-bottom": {
+   "title": "CBEFS bottom dissolved oxygen",
+   "roots": [
+    "o2-cbefs-bottom.json"
+   ],
+   "fate": "fresh",
+   "reason": null,
+   "checked": "2026-10-17T13:32:48Z",
+   "updated": "2026-10-17T13:32:48Z",
+   "hour": "2026-10-17T12:00:00Z",
+   "modelRun": "2026-10-17T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-17T12:00:00Z"
+   ],
+   "stale": false,
+   "staleCause": null,
+   "ageHours": 1.55,
+   "nearestOffsetHours": 1.55
+  },
+  "ph-cbefs": {
+   "title": "CBEFS surface pH",
+   "roots": [
+    "ph-cbefs.json"
+   ],
+   "fate": "fresh",
+   "reason": null,
+   "checked": "2026-10-17T13:32:48Z",
+   "updated": "2026-10-17T13:32:48Z",
+   "hour": "2026-10-17T12:00:00Z",
+   "modelRun": "2026-10-17T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-17T12:00:00Z"
+   ],
+   "stale": false,
+   "staleCause": null,
+   "ageHours": 1.55,
+   "nearestOffsetHours": 1.55
+  },
+  "ph-cbefs-bottom": {
+   "title": "CBEFS bottom pH",
+   "roots": [
+    "ph-cbefs-bottom.json"
+   ],
+   "fate": "fresh",
+   "reason": null,
+   "checked": "2026-10-17T13:32:48Z",
+   "updated": "2026-10-17T13:32:48Z",
+   "hour": "2026-10-17T12:00:00Z",
+   "modelRun": "2026-10-17T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-17T12:00:00Z"
+   ],
+   "stale": false,
+   "staleCause": null,
+   "ageHours": 1.55,
+   "nearestOffsetHours": 1.55
+  },
+  "talk-cbefs": {
+   "title": "CBEFS surface total alkalinity",
+   "roots": [
+    "talk-cbefs.json"
+   ],
+   "fate": "fresh",
+   "reason": null,
+   "checked": "2026-10-17T13:32:48Z",
+   "updated": "2026-10-17T13:32:48Z",
+   "hour": "2026-10-17T12:00:00Z",
+   "modelRun": "2026-10-17T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-17T12:00:00Z"
+   ],
+   "stale": false,
+   "staleCause": null,
+   "ageHours": 1.55,
+   "nearestOffsetHours": 1.55
+  },
+  "talk-cbefs-bottom": {
+   "title": "CBEFS bottom total alkalinity",
+   "roots": [
+    "talk-cbefs-bottom.json"
+   ],
+   "fate": "fresh",
+   "reason": null,
+   "checked": "2026-10-17T13:32:48Z",
+   "updated": "2026-10-17T13:32:48Z",
+   "hour": "2026-10-17T12:00:00Z",
+   "modelRun": "2026-10-17T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-17T12:00:00Z"
+   ],
+   "stale": false,
+   "staleCause": null,
+   "ageHours": 1.55,
+   "nearestOffsetHours": 1.55
+  },
+  "omega-cbefs": {
+   "title": "CBEFS surface aragonite saturation",
+   "roots": [
+    "omega-cbefs.json"
+   ],
+   "fate": "fresh",
+   "reason": null,
+   "checked": "2026-10-17T13:32:48Z",
+   "updated": "2026-10-17T13:32:48Z",
+   "hour": "2026-10-17T12:00:00Z",
+   "modelRun": "2026-10-17T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-17T12:00:00Z"
+   ],
+   "stale": false,
+   "staleCause": null,
+   "ageHours": 1.55,
+   "nearestOffsetHours": 1.55
+  },
+  "omega-cbefs-bottom": {
+   "title": "CBEFS bottom aragonite saturation",
+   "roots": [
+    "omega-cbefs-bottom.json"
+   ],
+   "fate": "fresh",
+   "reason": null,
+   "checked": "2026-10-17T13:32:48Z",
+   "updated": "2026-10-17T13:32:48Z",
+   "hour": "2026-10-17T12:00:00Z",
+   "modelRun": "2026-10-17T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-17T12:00:00Z"
+   ],
+   "stale": false,
+   "staleCause": null,
+   "ageHours": 1.55,
+   "nearestOffsetHours": 1.55
+  },
+  "no3-cbefs": {
+   "title": "CBEFS nitrate at Mercator's depths",
+   "roots": [
+    "no3-cbefs-0m.json",
+    "no3-cbefs-2m.json",
+    "no3-cbefs-3m.json",
+    "no3-cbefs-4m.json",
+    "no3-cbefs-5m.json",
+    "no3-cbefs-6m.json",
+    "no3-cbefs-8m.json",
+    "no3-cbefs-10m.json",
+    "no3-cbefs-11m.json",
+    "no3-cbefs-13m.json",
+    "no3-cbefs-16m.json",
+    "no3-cbefs-18m.json",
+    "no3-cbefs-22m.json",
+    "no3-cbefs-25m.json",
+    "no3-cbefs-29m.json",
+    "no3-cbefs-34m.json",
+    "no3-cbefs-40m.json"
+   ],
+   "fate": "fresh",
+   "reason": null,
+   "checked": "2026-10-17T13:32:48Z",
+   "updated": "2026-10-17T13:32:48Z",
+   "hour": "2026-10-17T12:00:00Z",
+   "modelRun": "2026-10-17T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-17T12:00:00Z"
+   ],
+   "stale": false,
+   "staleCause": null,
+   "ageHours": 1.55,
+   "nearestOffsetHours": 1.55
+  },
+  "nh4-cbefs": {
+   "title": "CBEFS ammonium at Mercator's depths",
+   "roots": [
+    "nh4-cbefs-0m.json",
+    "nh4-cbefs-2m.json",
+    "nh4-cbefs-3m.json",
+    "nh4-cbefs-4m.json",
+    "nh4-cbefs-5m.json",
+    "nh4-cbefs-6m.json",
+    "nh4-cbefs-8m.json",
+    "nh4-cbefs-10m.json",
+    "nh4-cbefs-11m.json",
+    "nh4-cbefs-13m.json",
+    "nh4-cbefs-16m.json",
+    "nh4-cbefs-18m.json",
+    "nh4-cbefs-22m.json",
+    "nh4-cbefs-25m.json",
+    "nh4-cbefs-29m.json",
+    "nh4-cbefs-34m.json",
+    "nh4-cbefs-40m.json"
+   ],
+   "fate": "fresh",
+   "reason": null,
+   "checked": "2026-10-17T13:32:48Z",
+   "updated": "2026-10-17T13:32:48Z",
+   "hour": "2026-10-17T12:00:00Z",
+   "modelRun": "2026-10-17T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-17T12:00:00Z"
+   ],
+   "stale": false,
+   "staleCause": null,
+   "ageHours": 1.55,
+   "nearestOffsetHours": 1.55
+  },
+  "po4-cbefs": {
+   "title": "CBEFS phosphate at Mercator's depths",
+   "roots": [
+    "po4-cbefs-0m.json",
+    "po4-cbefs-2m.json",
+    "po4-cbefs-3m.json",
+    "po4-cbefs-4m.json",
+    "po4-cbefs-5m.json",
+    "po4-cbefs-6m.json",
+    "po4-cbefs-8m.json",
+    "po4-cbefs-10m.json",
+    "po4-cbefs-11m.json",
+    "po4-cbefs-13m.json",
+    "po4-cbefs-16m.json",
+    "po4-cbefs-18m.json",
+    "po4-cbefs-22m.json",
+    "po4-cbefs-25m.json",
+    "po4-cbefs-29m.json",
+    "po4-cbefs-34m.json",
+    "po4-cbefs-40m.json"
+   ],
+   "fate": "fresh",
+   "reason": null,
+   "checked": "2026-10-17T13:32:48Z",
+   "updated": "2026-10-17T13:32:48Z",
+   "hour": "2026-10-17T12:00:00Z",
+   "modelRun": "2026-10-17T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-17T12:00:00Z"
+   ],
+   "stale": false,
+   "staleCause": null,
+   "ageHours": 1.55,
+   "nearestOffsetHours": 1.55
+  },
+  "oxygen-cbefs": {
+   "title": "CBEFS dissolved oxygen at Mercator's depths",
+   "roots": [
+    "oxygen-cbefs-0m.json",
+    "oxygen-cbefs-2m.json",
+    "oxygen-cbefs-3m.json",
+    "oxygen-cbefs-4m.json",
+    "oxygen-cbefs-5m.json",
+    "oxygen-cbefs-6m.json",
+    "oxygen-cbefs-8m.json",
+    "oxygen-cbefs-10m.json",
+    "oxygen-cbefs-11m.json",
+    "oxygen-cbefs-13m.json",
+    "oxygen-cbefs-16m.json",
+    "oxygen-cbefs-18m.json",
+    "oxygen-cbefs-22m.json",
+    "oxygen-cbefs-25m.json",
+    "oxygen-cbefs-29m.json",
+    "oxygen-cbefs-34m.json",
+    "oxygen-cbefs-40m.json"
+   ],
+   "fate": "fresh",
+   "reason": null,
+   "checked": "2026-10-17T13:32:48Z",
+   "updated": "2026-10-17T13:32:48Z",
+   "hour": "2026-10-17T12:00:00Z",
+   "modelRun": "2026-10-17T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-17T12:00:00Z"
+   ],
+   "stale": false,
+   "staleCause": null,
+   "ageHours": 1.55,
+   "nearestOffsetHours": 1.55
+  },
+  "acidity-cbefs": {
+   "title": "CBEFS pH at Mercator's depths",
+   "roots": [
+    "acidity-cbefs-0m.json",
+    "acidity-cbefs-2m.json",
+    "acidity-cbefs-3m.json",
+    "acidity-cbefs-4m.json",
+    "acidity-cbefs-5m.json",
+    "acidity-cbefs-6m.json",
+    "acidity-cbefs-8m.json",
+    "acidity-cbefs-10m.json",
+    "acidity-cbefs-11m.json",
+    "acidity-cbefs-13m.json",
+    "acidity-cbefs-16m.json",
+    "acidity-cbefs-18m.json",
+    "acidity-cbefs-22m.json",
+    "acidity-cbefs-25m.json",
+    "acidity-cbefs-29m.json",
+    "acidity-cbefs-34m.json",
+    "acidity-cbefs-40m.json"
+   ],
+   "fate": "fresh",
+   "reason": null,
+   "checked": "2026-10-17T13:32:48Z",
+   "updated": "2026-10-17T13:32:48Z",
+   "hour": "2026-10-17T12:00:00Z",
+   "modelRun": "2026-10-17T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-17T12:00:00Z"
+   ],
+   "stale": false,
+   "staleCause": null,
+   "ageHours": 1.55,
+   "nearestOffsetHours": 1.55
+  },
+  "alkalinity-cbefs": {
+   "title": "CBEFS total alkalinity at Mercator's depths",
+   "roots": [
+    "alkalinity-cbefs-0m.json",
+    "alkalinity-cbefs-2m.json",
+    "alkalinity-cbefs-3m.json",
+    "alkalinity-cbefs-4m.json",
+    "alkalinity-cbefs-5m.json",
+    "alkalinity-cbefs-6m.json",
+    "alkalinity-cbefs-8m.json",
+    "alkalinity-cbefs-10m.json",
+    "alkalinity-cbefs-11m.json",
+    "alkalinity-cbefs-13m.json",
+    "alkalinity-cbefs-16m.json",
+    "alkalinity-cbefs-18m.json",
+    "alkalinity-cbefs-22m.json",
+    "alkalinity-cbefs-25m.json",
+    "alkalinity-cbefs-29m.json",
+    "alkalinity-cbefs-34m.json",
+    "alkalinity-cbefs-40m.json"
+   ],
+   "fate": "fresh",
+   "reason": null,
+   "checked": "2026-10-17T13:32:48Z",
+   "updated": "2026-10-17T13:32:48Z",
+   "hour": "2026-10-17T12:00:00Z",
+   "modelRun": "2026-10-17T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-17T12:00:00Z"
+   ],
+   "stale": false,
+   "staleCause": null,
+   "ageHours": 1.55,
+   "nearestOffsetHours": 1.55
+  },
+  "aragonite-cbefs": {
+   "title": "CBEFS aragonite saturation at Mercator's depths",
+   "roots": [
+    "aragonite-cbefs-0m.json",
+    "aragonite-cbefs-2m.json",
+    "aragonite-cbefs-3m.json",
+    "aragonite-cbefs-4m.json",
+    "aragonite-cbefs-5m.json",
+    "aragonite-cbefs-6m.json",
+    "aragonite-cbefs-8m.json",
+    "aragonite-cbefs-10m.json",
+    "aragonite-cbefs-11m.json",
+    "aragonite-cbefs-13m.json",
+    "aragonite-cbefs-16m.json",
+    "aragonite-cbefs-18m.json",
+    "aragonite-cbefs-22m.json",
+    "aragonite-cbefs-25m.json",
+    "aragonite-cbefs-29m.json",
+    "aragonite-cbefs-34m.json",
+    "aragonite-cbefs-40m.json"
+   ],
+   "fate": "fresh",
+   "reason": null,
+   "checked": "2026-10-17T13:32:48Z",
+   "updated": "2026-10-17T13:32:48Z",
+   "hour": "2026-10-17T12:00:00Z",
+   "modelRun": "2026-10-17T00:00:00Z",
+   "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+   "hours": [
+    "2026-10-17T12:00:00Z"
+   ],
+   "stale": false,
+   "staleCause": null,
+   "ageHours": 1.55,
+   "nearestOffsetHours": 1.55
+  }
+ }
+}

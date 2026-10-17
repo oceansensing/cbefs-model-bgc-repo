@@ -1,0 +1,85 @@
+{
+ "schema": 1,
+ "product": "acidity-cbefs",
+ "title": "CBEFS pH at Mercator's depths",
+ "fate": "fresh",
+ "reason": null,
+ "checked": "2026-10-17T13:32:48Z",
+ "updated": "2026-10-17T13:32:48Z",
+ "hour": "2026-10-17T12:00:00Z",
+ "modelRun": "2026-10-17T00:00:00Z",
+ "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+ "hours": [
+  "2026-10-17T12:00:00Z"
+ ],
+ "files": {
+  "acidity-cbefs-0m.json": {
+   "bytes": 777716,
+   "sha256": "35dab259e265dab5249e88bc1bbd311f69de0c8aab7bd0b97b57e5c2d110bcf1"
+  },
+  "acidity-cbefs-10m.json": {
+   "bytes": 760035,
+   "sha256": "cab161acf59c376d2580be66afe885874bb5985a03ce5b02d373a7b6a1b6d1b8"
+  },
+  "acidity-cbefs-11m.json": {
+   "bytes": 757786,
+   "sha256": "5e73d0143ee03d4d7f0085aff96025ffca9e693737d4257973bd8c1706e26d70"
+  },
+  "acidity-cbefs-13m.json": {
+   "bytes": 754690,
+   "sha256": "42a5b47f1d1665019624d43413945e2d3b80df1eb8788cec0a957da6717f8937"
+  },
+  "acidity-cbefs-16m.json": {
+   "bytes": 752012,
+   "sha256": "4e43ad14b2dbfe755fd1020fd9626ad2a7d3ceea75b5f9d335e48caf863035b9"
+  },
+  "acidity-cbefs-18m.json": {
+   "bytes": 749344,
+   "sha256": "fbc1666304c7b24285512bf13cd3e978060055a1a7958cfe3bd03ea9696147d8"
+  },
+  "acidity-cbefs-22m.json": {
+   "bytes": 746500,
+   "sha256": "4a3a985ca64496313b57e6ffbf0ac3be4a148d52f4e806be56f29c3b68913275"
+  },
+  "acidity-cbefs-25m.json": {
+   "bytes": 743830,
+   "sha256": "7fe3c46736e1b08fff971d1cb701d03d4552eeb57913700237afdab11bb9915b"
+  },
+  "acidity-cbefs-29m.json": {
+   "bytes": 740366,
+   "sha256": "4394d8b1de9dc43ffc2935b4dd65a138cc2a0b5b905948ec8dde58e465ef071b"
+  },
+  "acidity-cbefs-2m.json": {
+   "bytes": 775479,
+   "sha256": "df4841b634651fd4632b342ab29fcbe6ac3b775f3e3a574233bbfdf900ab96b0"
+  },
+  "acidity-cbefs-34m.json": {
+   "bytes": 737154,
+   "sha256": "d1800f458cf076c3695619b5decb712339cf2191f10ee0abb6f1035041707311"
+  },
+  "acidity-cbefs-3m.json": {
+   "bytes": 772305,
+   "sha256": "83e42aae6bb33122d96a444abc73da2fe2507659a94b57a230d76749565b5f1c"
+  },
+  "acidity-cbefs-40m.json": {
+   "bytes": 736244,
+   "sha256": "b9b21fde7ca7dd632357cab0ac89b9b611e16736fbcdc9a737a495dbe8bdf7db"
+  },
+  "acidity-cbefs-4m.json": {
+   "bytes": 769918,
+   "sha256": "4435065aacfa9b6621b4fac4ad475031eca3c40c45fc3472bb9932c1ad4db0ed"
+  },
+  "acidity-cbefs-5m.json": {
+   "bytes": 767399,
+   "sha256": "a8cf46fb18a8531ad053854cfd88ab81e4791aa67017de54ccb0b1607b4c0524"
+  },
+  "acidity-cbefs-6m.json": {
+   "bytes": 764803,
+   "sha256": "b5a1f947925534aec5f405204758ae56f7a00078d5f81372631f0928ba08db8a"
+  },
+  "acidity-cbefs-8m.json": {
+   "bytes": 762479,
+   "sha256": "0f4ae72f7d4a7ccfb957b906f96065d324e3bcda8f4f70b16a96a68206314460"
+  }
+ }
+}
