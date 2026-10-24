@@ -1,0 +1,21 @@
+{
+ "schema": 1,
+ "product": "talk-cbefs-bottom",
+ "title": "CBEFS bottom total alkalinity",
+ "fate": "held",
+ "reason": "step cbefs exit 1",
+ "checked": "2026-10-23T19:34:37Z",
+ "updated": "2026-10-23T13:38:48Z",
+ "hour": "2026-10-23T12:00:00Z",
+ "modelRun": "2026-10-23T00:00:00Z",
+ "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+ "hours": [
+  "2026-10-23T12:00:00Z"
+ ],
+ "files": {
+  "talk-cbefs-bottom.json": {
+   "bytes": 828818,
+   "sha256": "b1c9c1b87300ead31de3e082ba91a4d0e61e030606728090196270fbdf10b3b0"
+  }
+ }
+}

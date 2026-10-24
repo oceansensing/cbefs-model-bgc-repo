@@ -1,0 +1,21 @@
+{
+ "schema": 1,
+ "product": "talk-cbefs",
+ "title": "CBEFS surface total alkalinity",
+ "fate": "held",
+ "reason": "step cbefs exit 1",
+ "checked": "2026-10-23T19:34:37Z",
+ "updated": "2026-10-23T13:38:48Z",
+ "hour": "2026-10-23T12:00:00Z",
+ "modelRun": "2026-10-23T00:00:00Z",
+ "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+ "hours": [
+  "2026-10-23T12:00:00Z"
+ ],
+ "files": {
+  "talk-cbefs.json": {
+   "bytes": 828766,
+   "sha256": "70c188a859f27585280704a8635d38cc875aa54cc465c2d12215be624a06c976"
+  }
+ }
+}
