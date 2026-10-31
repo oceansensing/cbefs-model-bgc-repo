@@ -1,0 +1,85 @@
+{
+ "schema": 1,
+ "product": "alkalinity-cbefs",
+ "title": "CBEFS total alkalinity at Mercator's depths",
+ "fate": "fresh",
+ "reason": null,
+ "checked": "2026-10-31T07:32:20Z",
+ "updated": "2026-10-31T01:33:15Z",
+ "hour": "2026-10-31T12:00:00Z",
+ "modelRun": "2026-10-30T00:00:00Z",
+ "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+ "hours": [
+  "2026-10-31T12:00:00Z"
+ ],
+ "files": {
+  "alkalinity-cbefs-0m.json": {
+   "bytes": 828778,
+   "sha256": "ee5b1cf6e5a178dc2d3cdbf14ddedfa6044a232be724bd0f9a2e0cec401d8661"
+  },
+  "alkalinity-cbefs-10m.json": {
+   "bytes": 790088,
+   "sha256": "a8865a6a6732f9af5e9e8c96037ae9a813fe42dd069b20e57f563ad190901c3e"
+  },
+  "alkalinity-cbefs-11m.json": {
+   "bytes": 784530,
+   "sha256": "140dc1ed1f1d6d608393c670120e3cec844e62e50eb907d46bda5ed8a0056d3e"
+  },
+  "alkalinity-cbefs-13m.json": {
+   "bytes": 777745,
+   "sha256": "17f22f142525735767a9df45105f6774c34abb887442c9cb1d0f29ca087726cf"
+  },
+  "alkalinity-cbefs-16m.json": {
+   "bytes": 771667,
+   "sha256": "b980629b3ccfab8ce1336163c804cc412eb637dee292529eea808eb91e96a2fe"
+  },
+  "alkalinity-cbefs-18m.json": {
+   "bytes": 765874,
+   "sha256": "3cf29e904df86da20649937014f91bf3653ed6e2b9a7c6eb0b8c922c15519b5c"
+  },
+  "alkalinity-cbefs-22m.json": {
+   "bytes": 759498,
+   "sha256": "e5348f8088bc0963fa87be3fd345f9424dd8022b37f283603d31f14029ef1a3c"
+  },
+  "alkalinity-cbefs-25m.json": {
+   "bytes": 753373,
+   "sha256": "fa7e48f49be95a472d17f0dc6e950aed6129443233b8b013f497b6684dc94a38"
+  },
+  "alkalinity-cbefs-29m.json": {
+   "bytes": 745491,
+   "sha256": "dd3c097e4a113056a86ccc6b7a57e1deae22677d4ba48c2831bffa174b9b4c93"
+  },
+  "alkalinity-cbefs-2m.json": {
+   "bytes": 824151,
+   "sha256": "6f4a295d9373045ecc6d5c75e237dd71d991976919175200bbd0d31931974360"
+  },
+  "alkalinity-cbefs-34m.json": {
+   "bytes": 738327,
+   "sha256": "6831adb96a7d235a5e5fab2b03c27f0754229123ccdcb486a76936a1e6ace66c"
+  },
+  "alkalinity-cbefs-3m.json": {
+   "bytes": 816911,
+   "sha256": "a513e5170a6aaa7eb72727fbda55b191daa553dbc08abb835ae633f93916ebc8"
+  },
+  "alkalinity-cbefs-40m.json": {
+   "bytes": 736291,
+   "sha256": "0e555ccd37f31d7ce21242df96fb204230cd512da768ff67e9cc8c2fe2101465"
+  },
+  "alkalinity-cbefs-4m.json": {
+   "bytes": 811639,
+   "sha256": "1bb7c7495f49de2b226ed21632523643b57a29d9bcc0d5da0872fad1d98d3fce"
+  },
+  "alkalinity-cbefs-5m.json": {
+   "bytes": 806316,
+   "sha256": "a0174853051f2367cb320308c23e76a62f01df5e78d481e32e65e7d52636bfbe"
+  },
+  "alkalinity-cbefs-6m.json": {
+   "bytes": 800669,
+   "sha256": "bb364cf430ab0903fa5d3e2299f84e58ad3203bd01f95c4d1b424fe41579b663"
+  },
+  "alkalinity-cbefs-8m.json": {
+   "bytes": 795260,
+   "sha256": "7603409d3bb37b977e9ce5fbe03ef11f2632dbe0848201391d51c0ead8b28b8f"
+  }
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "schema": 1,
+ "generated": "2026-10-31T07:32:20Z",
+ "mode": "full",
+ "fates": {
+  "o2-cbefs": "fresh",
+  "o2-cbefs-bottom": "fresh",
+  "ph-cbefs": "fresh",
+  "ph-cbefs-bottom": "fresh",
+  "talk-cbefs": "fresh",
+  "talk-cbefs-bottom": "fresh",
+  "omega-cbefs": "fresh",
+  "omega-cbefs-bottom": "fresh",
+  "no3-cbefs": "fresh",
+  "nh4-cbefs": "fresh",
+  "po4-cbefs": "fresh",
+  "oxygen-cbefs": "fresh",
+  "acidity-cbefs": "fresh",
+  "alkalinity-cbefs": "fresh",
+  "aragonite-cbefs": "fresh"
+ },
+ "reasons": {},
+ "built": {},
+ "withheld": {},
+ "deploy": true,
+ "notes": [],
+ "behind": [],
+ "tile_keys": {}
+}

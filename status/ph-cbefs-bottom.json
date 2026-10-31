@@ -1,0 +1,21 @@
+{
+ "schema": 1,
+ "product": "ph-cbefs-bottom",
+ "title": "CBEFS bottom pH",
+ "fate": "fresh",
+ "reason": null,
+ "checked": "2026-10-31T07:32:20Z",
+ "updated": "2026-10-31T01:33:15Z",
+ "hour": "2026-10-31T12:00:00Z",
+ "modelRun": "2026-10-30T00:00:00Z",
+ "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+ "hours": [
+  "2026-10-31T12:00:00Z"
+ ],
+ "files": {
+  "ph-cbefs-bottom.json": {
+   "bytes": 777592,
+   "sha256": "5dabe82c62a5572e1dffc67f9e4591d1e2f281bba4dcafb9b909f6091a9b5c60"
+  }
+ }
+}
