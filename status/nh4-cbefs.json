@@ -1,0 +1,85 @@
+{
+ "schema": 1,
+ "product": "nh4-cbefs",
+ "title": "CBEFS ammonium at Mercator's depths",
+ "fate": "fresh",
+ "reason": null,
+ "checked": "2026-11-07T13:31:55Z",
+ "updated": "2026-11-07T01:33:50Z",
+ "hour": "2026-11-07T12:00:00Z",
+ "modelRun": "2026-11-05T00:00:00Z",
+ "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+ "hours": [
+  "2026-11-07T12:00:00Z"
+ ],
+ "files": {
+  "nh4-cbefs-0m.json": {
+   "bytes": 731932,
+   "sha256": "4134f67034ee319eafb34d5b03c83fc77b78df3c81e399990a5909cb0aef9cd8"
+  },
+  "nh4-cbefs-10m.json": {
+   "bytes": 735074,
+   "sha256": "310b5e9cd206ddcc49afd28e6988a456016b30ea0591a1feaf30b376448a983f"
+  },
+  "nh4-cbefs-11m.json": {
+   "bytes": 736069,
+   "sha256": "6b6319ae10ca47ee0cd4450083180f0453bb66914d6387cb4501fbc906eb6d03"
+  },
+  "nh4-cbefs-13m.json": {
+   "bytes": 735765,
+   "sha256": "ebb938c83a0f61f51581326b1307680fcd2153b77cd539f5fe357675d2b075a8"
+  },
+  "nh4-cbefs-16m.json": {
+   "bytes": 735489,
+   "sha256": "5da7ef5b0423af8ccead743761f6dda241efd16b35a78ce518fbd308ea8b2eca"
+  },
+  "nh4-cbefs-18m.json": {
+   "bytes": 735430,
+   "sha256": "60708a142931926632127dc31596c81cc48a6d4de3d0d5ae90653d3528723225"
+  },
+  "nh4-cbefs-22m.json": {
+   "bytes": 735446,
+   "sha256": "ec6a265058d69ad630f13dff2af761305a8cae2714b449092329827900c94759"
+  },
+  "nh4-cbefs-25m.json": {
+   "bytes": 735594,
+   "sha256": "03807568a390869d860765b0aac790d7b58680ff777198627757e9c11a47218d"
+  },
+  "nh4-cbefs-29m.json": {
+   "bytes": 735878,
+   "sha256": "fe438dbd34e218c47e9a2992a574b33c2d94bec5a2ecdb2c6b53bebef1f0bb09"
+  },
+  "nh4-cbefs-2m.json": {
+   "bytes": 732259,
+   "sha256": "a28c2e0fc36a9b4cef6c3553b6f59e734e35070c7f96a6cd0fd1b132e8203a9b"
+  },
+  "nh4-cbefs-34m.json": {
+   "bytes": 736160,
+   "sha256": "dd97f72626f4563fbe2817157e333019ce4a792c2a7c74f2be0d63fae4910247"
+  },
+  "nh4-cbefs-3m.json": {
+   "bytes": 733033,
+   "sha256": "4591eb54f41a1d4139b94db4482f6908fd390142ee55fd63c8c679f4ef55cd0d"
+  },
+  "nh4-cbefs-40m.json": {
+   "bytes": 736221,
+   "sha256": "9276ea1d6d6643e53015f559f5fb8612abfe01839b34e00d6c637bf2d6f111bb"
+  },
+  "nh4-cbefs-4m.json": {
+   "bytes": 733397,
+   "sha256": "c1058503eb7acaaa09cd43ed3c68b9b09d65d563819b0bbead3f395be84b62bc"
+  },
+  "nh4-cbefs-5m.json": {
+   "bytes": 733784,
+   "sha256": "a1563df9c6618021bd39df13bd2b78054884b72519e751be423d6e2ab865ebb1"
+  },
+  "nh4-cbefs-6m.json": {
+   "bytes": 734233,
+   "sha256": "ff564d0a6f2773cb5b70f1766d73e2d5ba9fa077743ea5580e5011e6e795168c"
+  },
+  "nh4-cbefs-8m.json": {
+   "bytes": 734546,
+   "sha256": "cc5eb3bfba2d25d44a312de30dfcca48cf7574965db4b181e649ac9b5790fa79"
+  }
+ }
+}
