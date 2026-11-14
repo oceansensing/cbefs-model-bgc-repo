@@ -1,0 +1,21 @@
+{
+ "schema": 1,
+ "product": "o2-cbefs",
+ "title": "CBEFS surface dissolved oxygen",
+ "fate": "fresh",
+ "reason": null,
+ "checked": "2026-11-14T13:32:01Z",
+ "updated": "2026-11-14T01:45:22Z",
+ "hour": "2026-11-14T12:00:00Z",
+ "modelRun": "2026-11-13T00:00:00Z",
+ "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+ "hours": [
+  "2026-11-14T12:00:00Z"
+ ],
+ "files": {
+  "o2-cbefs.json": {
+   "bytes": 782600,
+   "sha256": "35ec32773818f96b00a01c114f938ba0cde2658e515b109d00eecfdb67d48cde"
+  }
+ }
+}
