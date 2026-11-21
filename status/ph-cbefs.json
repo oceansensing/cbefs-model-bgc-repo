@@ -1,0 +1,21 @@
+{
+ "schema": 1,
+ "product": "ph-cbefs",
+ "title": "CBEFS surface pH",
+ "fate": "fresh",
+ "reason": null,
+ "checked": "2026-11-21T19:32:21Z",
+ "updated": "2026-11-21T14:25:17Z",
+ "hour": "2026-11-21T12:00:00Z",
+ "modelRun": "2026-11-21T00:00:00Z",
+ "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+ "hours": [
+  "2026-11-21T12:00:00Z"
+ ],
+ "files": {
+  "ph-cbefs.json": {
+   "bytes": 777364,
+   "sha256": "8366bb48d502f96a3693dad82bed7dc9d0e86bc15e05412832440a0b5b5700ea"
+  }
+ }
+}
