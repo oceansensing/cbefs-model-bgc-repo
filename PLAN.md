@@ -3,7 +3,7 @@
 The CBEFS **biogeochemistry**. Created on GitHub by the owner and given its documents on
 2026-09-27, the day the owner asked for ECCOFS, CBEFS, Mercator's
 biogeochemistry, RTOFS and GFS to be published without the map drawing them.
-**Built and rehearsed 2026-09-27; not yet live.**
+**Built and rehearsed 2026-09-27; live since that day.**
 
 ## What it is for
 
@@ -100,3 +100,8 @@ line. Dependabot reads requirements files and never a workflow line: an
 inline pin elsewhere had carried `requests` 2.32.3, a version with two
 advisories, unflagged. The site's `check:docs` now refuses an inline package
 here. Confirmed by a dispatched run, green on build, Pages and R2.
+
+## 2026-11-21 — two days ahead and one behind (D3)
+
+Declared, rehearsed (D3 has the measurements) and pushed 04:18 UTC on 2026-11-22; the first run after,
+`44998638427`, green on build, Pages, R2 and the branch's job.

@@ -45,8 +45,7 @@ not drawn** (the owner, 2026-09-27).
 D16, the owner's call of 2026-11-21).
 **Every daily mean by its days.** No root listed `frames`, so none does:
 every time, the base's own among them, is in `moreFrames`.
-Every time past that is in `moreFrames`, a list of its own; a reader taking
-both lists has every time once.
+A reader taking `moreFrames` has every time once.
 
 **The dated files are R2's alone, kept while a base lists them**
 (`memory = "r2-kept"`): they leave Pages and the `published` branch, and what

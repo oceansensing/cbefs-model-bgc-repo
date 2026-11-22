@@ -54,14 +54,15 @@ scoped here with `--only=`; the workflow runs on `27 1,7,13,19 * * *` since
 2026-09-27, after its first dispatched run published.
 
 These products are published **operationally but not drawn on the website's
-map** — the owner's call, 2026-09-27. The map's status line still reports
-them when they fall behind, which is how their health stays visible.
+map** — the owner's call, 2026-09-27. The map's status
+line reports those Pages carries when they fall behind; those R2 alone carries
+are in the status on R2 and on the `published` branch, not Pages'.
 
 ## The times either side (since 2026-11-21)
 
 Every product that changes with time publishes two days ahead and one behind
-(DECISIONS D3). A root's header lists them in `frames`, as it did before that
-day, and `moreFrames`, every time added; together, each time once. Every
+(DECISIONS D3). A root's header lists every time in `moreFrames`, its own among them;
+none lists `frames`. Every
 dated file (`<root's name>.v<its time>.json`) is R2's alone: none is on Pages
 or the `published` branch, and R2 keeps one while a root lists it and for an
 hour after.
@@ -93,9 +94,9 @@ workflow, and nothing else executable. Each run publishes to GitHub Pages and
 to Cloudflare R2 from one build. Sibling repositories of the same model:
 `cbefs-model-fields-repo` and `cbefs-model-currents-repo`.
 
-**Which document gets what, and what "update docs" means across all
-twenty repositories, is the doctrine block at the top of `CLAUDE.md`** —
-the same text in all twenty, held equal by the site's `check:docs`.
+**Which document gets what, and what "update docs" means across every
+repository of this project, is the doctrine block at the top of `CLAUDE.md`** —
+the same text in each, held equal by the site's `check:docs`.
 
 ## Structure
 
