@@ -34,12 +34,17 @@ timeout_minutes = 20
 [steps.cbefs]
 cmd = ["python3", "scripts/fetch-cbefs.py", "--only=o2-cbefs,o2-cbefs-bottom,ph-cbefs,ph-cbefs-bottom,talk-cbefs,talk-cbefs-bottom,omega-cbefs,omega-cbefs-bottom,no3-cbefs,nh4-cbefs,po4-cbefs,oxygen-cbefs,acidity-cbefs,alkalinity-cbefs,aragonite-cbefs"]
 lane = "vims-thredds"
+timeout_minutes = 30
 
 [products.o2-cbefs]
 title = "CBEFS surface dissolved oxygen"
 step = "cbefs"
 roots = ["o2-cbefs.json"]
-writes = ["o2-cbefs.json"]
+writes = ["o2-cbefs.json", "o2-cbefs.v*.json"]
+r2_only = ["o2-cbefs.v*.json"]
+memory = "r2-kept"
+hours_ahead = 48
+hours_behind = 24
 max_age_hours = 20
 namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=o2-cbefs"]
 
@@ -47,7 +52,11 @@ namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=o2-cbef
 title = "CBEFS bottom dissolved oxygen"
 step = "cbefs"
 roots = ["o2-cbefs-bottom.json"]
-writes = ["o2-cbefs-bottom.json"]
+writes = ["o2-cbefs-bottom.json", "o2-cbefs-bottom.v*.json"]
+r2_only = ["o2-cbefs-bottom.v*.json"]
+memory = "r2-kept"
+hours_ahead = 48
+hours_behind = 24
 max_age_hours = 20
 namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=o2-cbefs-bottom"]
 
@@ -55,7 +64,11 @@ namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=o2-cbef
 title = "CBEFS surface pH"
 step = "cbefs"
 roots = ["ph-cbefs.json"]
-writes = ["ph-cbefs.json"]
+writes = ["ph-cbefs.json", "ph-cbefs.v*.json"]
+r2_only = ["ph-cbefs.v*.json"]
+memory = "r2-kept"
+hours_ahead = 48
+hours_behind = 24
 max_age_hours = 20
 namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=ph-cbefs"]
 
@@ -63,7 +76,11 @@ namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=ph-cbef
 title = "CBEFS bottom pH"
 step = "cbefs"
 roots = ["ph-cbefs-bottom.json"]
-writes = ["ph-cbefs-bottom.json"]
+writes = ["ph-cbefs-bottom.json", "ph-cbefs-bottom.v*.json"]
+r2_only = ["ph-cbefs-bottom.v*.json"]
+memory = "r2-kept"
+hours_ahead = 48
+hours_behind = 24
 max_age_hours = 20
 namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=ph-cbefs-bottom"]
 
@@ -71,7 +88,11 @@ namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=ph-cbef
 title = "CBEFS surface total alkalinity"
 step = "cbefs"
 roots = ["talk-cbefs.json"]
-writes = ["talk-cbefs.json"]
+writes = ["talk-cbefs.json", "talk-cbefs.v*.json"]
+r2_only = ["talk-cbefs.v*.json"]
+memory = "r2-kept"
+hours_ahead = 48
+hours_behind = 24
 max_age_hours = 20
 namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=talk-cbefs"]
 
@@ -79,7 +100,11 @@ namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=talk-cb
 title = "CBEFS bottom total alkalinity"
 step = "cbefs"
 roots = ["talk-cbefs-bottom.json"]
-writes = ["talk-cbefs-bottom.json"]
+writes = ["talk-cbefs-bottom.json", "talk-cbefs-bottom.v*.json"]
+r2_only = ["talk-cbefs-bottom.v*.json"]
+memory = "r2-kept"
+hours_ahead = 48
+hours_behind = 24
 max_age_hours = 20
 namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=talk-cbefs-bottom"]
 
@@ -87,7 +112,11 @@ namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=talk-cb
 title = "CBEFS surface aragonite saturation"
 step = "cbefs"
 roots = ["omega-cbefs.json"]
-writes = ["omega-cbefs.json"]
+writes = ["omega-cbefs.json", "omega-cbefs.v*.json"]
+r2_only = ["omega-cbefs.v*.json"]
+memory = "r2-kept"
+hours_ahead = 48
+hours_behind = 24
 max_age_hours = 20
 namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=omega-cbefs"]
 
@@ -95,7 +124,11 @@ namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=omega-c
 title = "CBEFS bottom aragonite saturation"
 step = "cbefs"
 roots = ["omega-cbefs-bottom.json"]
-writes = ["omega-cbefs-bottom.json"]
+writes = ["omega-cbefs-bottom.json", "omega-cbefs-bottom.v*.json"]
+r2_only = ["omega-cbefs-bottom.v*.json"]
+memory = "r2-kept"
+hours_ahead = 48
+hours_behind = 24
 max_age_hours = 20
 namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=omega-cbefs-bottom"]
 
@@ -110,9 +143,12 @@ roots = ["no3-cbefs-0m.json", "no3-cbefs-2m.json", "no3-cbefs-3m.json", "no3-cbe
          "no3-cbefs-11m.json", "no3-cbefs-13m.json", "no3-cbefs-16m.json", "no3-cbefs-18m.json",
          "no3-cbefs-22m.json", "no3-cbefs-25m.json", "no3-cbefs-29m.json", "no3-cbefs-34m.json",
          "no3-cbefs-40m.json"]
-writes = ["no3-cbefs-*m.json"]
+writes = ["no3-cbefs-*m.json", "no3-cbefs-*m.v*.json"]
 max_age_hours = 30
 r2_only = true
+memory = "r2-kept"
+hours_ahead = 48
+hours_behind = 24
 namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=no3-cbefs"]
 
 # **Ammonium at fixed depths, R2's alone** (2026-10-10; the site's fetcher,
@@ -126,9 +162,12 @@ roots = ["nh4-cbefs-0m.json", "nh4-cbefs-2m.json", "nh4-cbefs-3m.json", "nh4-cbe
          "nh4-cbefs-11m.json", "nh4-cbefs-13m.json", "nh4-cbefs-16m.json", "nh4-cbefs-18m.json",
          "nh4-cbefs-22m.json", "nh4-cbefs-25m.json", "nh4-cbefs-29m.json", "nh4-cbefs-34m.json",
          "nh4-cbefs-40m.json"]
-writes = ["nh4-cbefs-*m.json"]
+writes = ["nh4-cbefs-*m.json", "nh4-cbefs-*m.v*.json"]
 max_age_hours = 30
 r2_only = true
+memory = "r2-kept"
+hours_ahead = 48
+hours_behind = 24
 namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=nh4-cbefs"]
 
 # **Phosphate at fixed depths, R2's alone** (2026-10-10; the site's fetcher,
@@ -142,9 +181,12 @@ roots = ["po4-cbefs-0m.json", "po4-cbefs-2m.json", "po4-cbefs-3m.json", "po4-cbe
          "po4-cbefs-11m.json", "po4-cbefs-13m.json", "po4-cbefs-16m.json", "po4-cbefs-18m.json",
          "po4-cbefs-22m.json", "po4-cbefs-25m.json", "po4-cbefs-29m.json", "po4-cbefs-34m.json",
          "po4-cbefs-40m.json"]
-writes = ["po4-cbefs-*m.json"]
+writes = ["po4-cbefs-*m.json", "po4-cbefs-*m.v*.json"]
 max_age_hours = 30
 r2_only = true
+memory = "r2-kept"
+hours_ahead = 48
+hours_behind = 24
 namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=po4-cbefs"]
 
 # **Dissolved oxygen at fixed depths, R2's alone** (2026-10-10; the site's fetcher,
@@ -158,9 +200,12 @@ roots = ["oxygen-cbefs-0m.json", "oxygen-cbefs-2m.json", "oxygen-cbefs-3m.json",
          "oxygen-cbefs-11m.json", "oxygen-cbefs-13m.json", "oxygen-cbefs-16m.json", "oxygen-cbefs-18m.json",
          "oxygen-cbefs-22m.json", "oxygen-cbefs-25m.json", "oxygen-cbefs-29m.json", "oxygen-cbefs-34m.json",
          "oxygen-cbefs-40m.json"]
-writes = ["oxygen-cbefs-*m.json"]
+writes = ["oxygen-cbefs-*m.json", "oxygen-cbefs-*m.v*.json"]
 max_age_hours = 30
 r2_only = true
+memory = "r2-kept"
+hours_ahead = 48
+hours_behind = 24
 namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=oxygen-cbefs"]
 
 # **pH at fixed depths, R2's alone** (2026-10-16; the site's fetcher,
@@ -175,9 +220,12 @@ roots = ["acidity-cbefs-0m.json", "acidity-cbefs-2m.json", "acidity-cbefs-3m.jso
          "acidity-cbefs-11m.json", "acidity-cbefs-13m.json", "acidity-cbefs-16m.json", "acidity-cbefs-18m.json",
          "acidity-cbefs-22m.json", "acidity-cbefs-25m.json", "acidity-cbefs-29m.json", "acidity-cbefs-34m.json",
          "acidity-cbefs-40m.json"]
-writes = ["acidity-cbefs-*m.json"]
+writes = ["acidity-cbefs-*m.json", "acidity-cbefs-*m.v*.json"]
 max_age_hours = 30
 r2_only = true
+memory = "r2-kept"
+hours_ahead = 48
+hours_behind = 24
 namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=acidity-cbefs"]
 
 # **Total alkalinity at fixed depths, R2's alone** (2026-10-16; the site's fetcher,
@@ -192,9 +240,12 @@ roots = ["alkalinity-cbefs-0m.json", "alkalinity-cbefs-2m.json", "alkalinity-cbe
          "alkalinity-cbefs-11m.json", "alkalinity-cbefs-13m.json", "alkalinity-cbefs-16m.json", "alkalinity-cbefs-18m.json",
          "alkalinity-cbefs-22m.json", "alkalinity-cbefs-25m.json", "alkalinity-cbefs-29m.json", "alkalinity-cbefs-34m.json",
          "alkalinity-cbefs-40m.json"]
-writes = ["alkalinity-cbefs-*m.json"]
+writes = ["alkalinity-cbefs-*m.json", "alkalinity-cbefs-*m.v*.json"]
 max_age_hours = 30
 r2_only = true
+memory = "r2-kept"
+hours_ahead = 48
+hours_behind = 24
 namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=alkalinity-cbefs"]
 
 # **Aragonite saturation at fixed depths, R2's alone** (2026-10-16; the site's fetcher,
@@ -209,7 +260,10 @@ roots = ["aragonite-cbefs-0m.json", "aragonite-cbefs-2m.json", "aragonite-cbefs-
          "aragonite-cbefs-11m.json", "aragonite-cbefs-13m.json", "aragonite-cbefs-16m.json", "aragonite-cbefs-18m.json",
          "aragonite-cbefs-22m.json", "aragonite-cbefs-25m.json", "aragonite-cbefs-29m.json", "aragonite-cbefs-34m.json",
          "aragonite-cbefs-40m.json"]
-writes = ["aragonite-cbefs-*m.json"]
+writes = ["aragonite-cbefs-*m.json", "aragonite-cbefs-*m.v*.json"]
 max_age_hours = 30
 r2_only = true
+memory = "r2-kept"
+hours_ahead = 48
+hours_behind = 24
 namespace = ["python3", "scripts/fetch-cbefs.py", "--namespace", "--only=aragonite-cbefs"]

@@ -57,6 +57,15 @@ These products are published **operationally but not drawn on the website's
 map** — the owner's call, 2026-09-27. The map's status line still reports
 them when they fall behind, which is how their health stays visible.
 
+## The times either side (since 2026-11-21)
+
+Every product that changes with time publishes two days ahead and one behind
+(DECISIONS D3). A root's header lists them in `frames`, as it did before that
+day, and `moreFrames`, every time added; together, each time once. Every
+dated file (`<root's name>.v<its time>.json`) is R2's alone: none is on Pages
+or the `published` branch, and R2 keeps one while a root lists it and for an
+hour after.
+
 ## Where the data comes from
 
 **Source, read 2026-09-26/27**: VIMS publishes CBEFS output openly, with no
