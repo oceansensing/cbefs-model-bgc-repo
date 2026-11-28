@@ -1,0 +1,136 @@
+{
+ "schema": 1,
+ "product": "no3-cbefs",
+ "title": "CBEFS nitrate at Mercator's depths",
+ "fate": "held",
+ "reason": "step cbefs: upstream failed \u2014 ! the VIMS THREDDS server failed after 5 tries: HTTP 503 for https://tds.vims.edu/thredds/catalog/abever/ECB_FORECAST_HR/AVERAGES/catalog.xml",
+ "checked": "2026-11-26T19:33:37Z",
+ "updated": "2026-11-26T19:33:37Z",
+ "hour": "2026-11-26T12:00:00Z",
+ "modelRun": "2026-11-26T00:00:00Z",
+ "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+ "hours": [
+  "2026-11-26T12:00:00Z"
+ ],
+ "files": {
+  "no3-cbefs-0m.json": {
+   "bytes": 736483,
+   "sha256": "9a960fbc57d9c9ae3a3bfe2820daf11cd1f6964858d92efe0dc7d1947d80aef8"
+  },
+  "no3-cbefs-0m.v20261126T1200Z.json": {
+   "bytes": 735748
+  },
+  "no3-cbefs-10m.json": {
+   "bytes": 735076,
+   "sha256": "d59e516644903372dbdd53d3dbdbb38c797268db81177b387650e46c1fedacd6"
+  },
+  "no3-cbefs-10m.v20261126T1200Z.json": {
+   "bytes": 734337
+  },
+  "no3-cbefs-11m.json": {
+   "bytes": 735053,
+   "sha256": "d7970fdaf35b95076b248baa563203eaabaad7c73e56513f6c36e5af5d314809"
+  },
+  "no3-cbefs-11m.v20261126T1200Z.json": {
+   "bytes": 734314
+  },
+  "no3-cbefs-13m.json": {
+   "bytes": 735218,
+   "sha256": "5c8b0a86f79afe4c615bf94b58a3aa0aaa8b30976d6b6e0c4a6e2c050c960eca"
+  },
+  "no3-cbefs-13m.v20261126T1200Z.json": {
+   "bytes": 734479
+  },
+  "no3-cbefs-16m.json": {
+   "bytes": 735274,
+   "sha256": "7953d617ce73d742fe2018704f14055e14d0faabc4cd47e8e9b62d3e14c020d6"
+  },
+  "no3-cbefs-16m.v20261126T1200Z.json": {
+   "bytes": 734535
+  },
+  "no3-cbefs-18m.json": {
+   "bytes": 735534,
+   "sha256": "6b87f2e24b9ea6c8a2cf5caff1e7998e731f32ac806b309d9b7f9ac8dd645dd2"
+  },
+  "no3-cbefs-18m.v20261126T1200Z.json": {
+   "bytes": 734795
+  },
+  "no3-cbefs-22m.json": {
+   "bytes": 735805,
+   "sha256": "57d315a510152e86e9b802da9bdefd2b60c1bebad84aeaf7496e8fb0fd435147"
+  },
+  "no3-cbefs-22m.v20261126T1200Z.json": {
+   "bytes": 735066
+  },
+  "no3-cbefs-25m.json": {
+   "bytes": 736115,
+   "sha256": "ab14ea95336de0d4fc78ded8496e1824c5e9ce78f0644f0f50836e2a273ad33f"
+  },
+  "no3-cbefs-25m.v20261126T1200Z.json": {
+   "bytes": 735376
+  },
+  "no3-cbefs-29m.json": {
+   "bytes": 736428,
+   "sha256": "222cdedb748ed1d0ca93f757bcf7d605d69dae17dac5080702fb952b3106f721"
+  },
+  "no3-cbefs-29m.v20261126T1200Z.json": {
+   "bytes": 735689
+  },
+  "no3-cbefs-2m.json": {
+   "bytes": 736504,
+   "sha256": "e4e55e91ed184ef5b692a2aeb1408cfcfc59b6390386b0a45747ec947da74f6f"
+  },
+  "no3-cbefs-2m.v20261126T1200Z.json": {
+   "bytes": 735769
+  },
+  "no3-cbefs-34m.json": {
+   "bytes": 736862,
+   "sha256": "970ba011155fcabf974bb83d767042a8e323117572a5faa1831d7dce008ab1be"
+  },
+  "no3-cbefs-34m.v20261126T1200Z.json": {
+   "bytes": 736123
+  },
+  "no3-cbefs-3m.json": {
+   "bytes": 736158,
+   "sha256": "01f1b8d6b54099eb77c989987a6b57c1d6e3dd57c01b47dc84913e25fe0d98a4"
+  },
+  "no3-cbefs-3m.v20261126T1200Z.json": {
+   "bytes": 735423
+  },
+  "no3-cbefs-40m.json": {
+   "bytes": 736949,
+   "sha256": "c920924fba0b6d1290561eb9881b467a93d442cdd8b172fec435f7117e5b7681"
+  },
+  "no3-cbefs-40m.v20261126T1200Z.json": {
+   "bytes": 736210
+  },
+  "no3-cbefs-4m.json": {
+   "bytes": 735859,
+   "sha256": "d1138cda4cd45216246652d8e480c6c08bec84a4f9e29b6404ec5eabe9e27370"
+  },
+  "no3-cbefs-4m.v20261126T1200Z.json": {
+   "bytes": 735124
+  },
+  "no3-cbefs-5m.json": {
+   "bytes": 735562,
+   "sha256": "df683044d325f18198b93fb50d54e05245ef68e6f517a202015a4e9392873c29"
+  },
+  "no3-cbefs-5m.v20261126T1200Z.json": {
+   "bytes": 734827
+  },
+  "no3-cbefs-6m.json": {
+   "bytes": 735233,
+   "sha256": "10be63be9e02c1b0a5c27983e4ac935944a9fa14221bc7b3c931641a1e5f6fb2"
+  },
+  "no3-cbefs-6m.v20261126T1200Z.json": {
+   "bytes": 734498
+  },
+  "no3-cbefs-8m.json": {
+   "bytes": 735127,
+   "sha256": "7815acb30429e48cbad2757e79938eb9f57cc98830576c2b5a7467bb2b27157a"
+  },
+  "no3-cbefs-8m.v20261126T1200Z.json": {
+   "bytes": 734392
+  }
+ }
+}

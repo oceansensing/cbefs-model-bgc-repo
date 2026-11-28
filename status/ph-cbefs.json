@@ -1,0 +1,24 @@
+{
+ "schema": 1,
+ "product": "ph-cbefs",
+ "title": "CBEFS surface pH",
+ "fate": "held",
+ "reason": "step cbefs: upstream failed \u2014 ! the VIMS THREDDS server failed after 5 tries: HTTP 503 for https://tds.vims.edu/thredds/catalog/abever/ECB_FORECAST_HR/AVERAGES/catalog.xml",
+ "checked": "2026-11-26T19:33:37Z",
+ "updated": "2026-11-26T19:33:37Z",
+ "hour": "2026-11-26T12:00:00Z",
+ "modelRun": "2026-11-26T00:00:00Z",
+ "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+ "hours": [
+  "2026-11-26T12:00:00Z"
+ ],
+ "files": {
+  "ph-cbefs.json": {
+   "bytes": 778098,
+   "sha256": "a22dd8d9ee8c708d622570d19dcafd10d4b5534d2bb40a863e0ef151d4e93f42"
+  },
+  "ph-cbefs.v20261126T1200Z.json": {
+   "bytes": 777379
+  }
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "schema": 1,
+ "product": "omega-cbefs-bottom",
+ "title": "CBEFS bottom aragonite saturation",
+ "fate": "held",
+ "reason": "step cbefs: upstream failed \u2014 ! the VIMS THREDDS server failed after 5 tries: HTTP 503 for https://tds.vims.edu/thredds/catalog/abever/ECB_FORECAST_HR/AVERAGES/catalog.xml",
+ "checked": "2026-11-26T19:33:37Z",
+ "updated": "2026-11-26T19:33:37Z",
+ "hour": "2026-11-26T12:00:00Z",
+ "modelRun": "2026-11-26T00:00:00Z",
+ "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+ "hours": [
+  "2026-11-26T12:00:00Z"
+ ],
+ "files": {
+  "omega-cbefs-bottom.json": {
+   "bytes": 778241,
+   "sha256": "bf00a88d426e2211ecd2a81d309b98d77f6f6c5c297f460dee0e9992b72d069b"
+  },
+  "omega-cbefs-bottom.v20261126T1200Z.json": {
+   "bytes": 777482
+  }
+ }
+}

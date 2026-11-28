@@ -1,0 +1,136 @@
+{
+ "schema": 1,
+ "product": "oxygen-cbefs",
+ "title": "CBEFS dissolved oxygen at Mercator's depths",
+ "fate": "held",
+ "reason": "step cbefs: upstream failed \u2014 ! the VIMS THREDDS server failed after 5 tries: HTTP 503 for https://tds.vims.edu/thredds/catalog/abever/ECB_FORECAST_HR/AVERAGES/catalog.xml",
+ "checked": "2026-11-26T19:33:37Z",
+ "updated": "2026-11-26T19:33:37Z",
+ "hour": "2026-11-26T12:00:00Z",
+ "modelRun": "2026-11-26T00:00:00Z",
+ "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+ "hours": [
+  "2026-11-26T12:00:00Z"
+ ],
+ "files": {
+  "oxygen-cbefs-0m.json": {
+   "bytes": 783360,
+   "sha256": "1c7a972ea2182372741fbfd5d1d2d45c97fba7e7176e23db43e3f1b7cf8dc990"
+  },
+  "oxygen-cbefs-0m.v20261126T1200Z.json": {
+   "bytes": 782613
+  },
+  "oxygen-cbefs-10m.json": {
+   "bytes": 763906,
+   "sha256": "09451e86ef4b865f32b542991ebd8e1ad3485471cc01792d1cf097e6da9fd5d8"
+  },
+  "oxygen-cbefs-10m.v20261126T1200Z.json": {
+   "bytes": 763155
+  },
+  "oxygen-cbefs-11m.json": {
+   "bytes": 761124,
+   "sha256": "0081421761894040b12988c4ea23b6def11aac286a8e90516b96d9b0bd445087"
+  },
+  "oxygen-cbefs-11m.v20261126T1200Z.json": {
+   "bytes": 760373
+  },
+  "oxygen-cbefs-13m.json": {
+   "bytes": 757731,
+   "sha256": "fb12d4a25cf550a68c4a47a094bf959081c64d151f048c78ce5a87fe598c16f9"
+  },
+  "oxygen-cbefs-13m.v20261126T1200Z.json": {
+   "bytes": 756980
+  },
+  "oxygen-cbefs-16m.json": {
+   "bytes": 754692,
+   "sha256": "4f2647af21f263bd5fe3731ea72b807a711fa9fcf2463ff335eaa5c50dc47cb1"
+  },
+  "oxygen-cbefs-16m.v20261126T1200Z.json": {
+   "bytes": 753941
+  },
+  "oxygen-cbefs-18m.json": {
+   "bytes": 751795,
+   "sha256": "c1bc8afb195455b0841eed97c3e88955bc95f666c2929bc98cf3900d84c04731"
+  },
+  "oxygen-cbefs-18m.v20261126T1200Z.json": {
+   "bytes": 751044
+  },
+  "oxygen-cbefs-22m.json": {
+   "bytes": 748607,
+   "sha256": "601701ba65643007b8af1c28f639ec5f3913830d1f6cb9ca1bda29c7d056da4e"
+  },
+  "oxygen-cbefs-22m.v20261126T1200Z.json": {
+   "bytes": 747856
+  },
+  "oxygen-cbefs-25m.json": {
+   "bytes": 745545,
+   "sha256": "47feb3274461d348c69ce732dc8213a1fbb26f4c8ae94930e54892e28a6d788d"
+  },
+  "oxygen-cbefs-25m.v20261126T1200Z.json": {
+   "bytes": 744794
+  },
+  "oxygen-cbefs-29m.json": {
+   "bytes": 741604,
+   "sha256": "1cfd9138406f37fae87e2ed13dae1ec0803eb5a2bdfba79d52cb6d77c62f889e"
+  },
+  "oxygen-cbefs-29m.v20261126T1200Z.json": {
+   "bytes": 740853
+  },
+  "oxygen-cbefs-2m.json": {
+   "bytes": 781031,
+   "sha256": "cdeece5768fc5308300970a53cdfdba11e8a97a641fedfa1cc1bc0da95125bc8"
+  },
+  "oxygen-cbefs-2m.v20261126T1200Z.json": {
+   "bytes": 780284
+  },
+  "oxygen-cbefs-34m.json": {
+   "bytes": 738022,
+   "sha256": "eecb9210186b7028cd3e21b3fc2778b6106390f4ddf1836096ac8669f4308605"
+  },
+  "oxygen-cbefs-34m.v20261126T1200Z.json": {
+   "bytes": 737271
+  },
+  "oxygen-cbefs-3m.json": {
+   "bytes": 777393,
+   "sha256": "a933e571f30f096d93cdc6571491015cff9221ac804724a83571f7f423ab4865"
+  },
+  "oxygen-cbefs-3m.v20261126T1200Z.json": {
+   "bytes": 776646
+  },
+  "oxygen-cbefs-40m.json": {
+   "bytes": 737004,
+   "sha256": "d967f685bed1c9568f5d65f3f2fdbf1515d51d7fdbafafdc5044dea1b7ab83ed"
+  },
+  "oxygen-cbefs-40m.v20261126T1200Z.json": {
+   "bytes": 736253
+  },
+  "oxygen-cbefs-4m.json": {
+   "bytes": 774741,
+   "sha256": "02983b4bedb61b30e3dfa657146d04518ccb25a52b8fdaf696ab18dfd579ae8c"
+  },
+  "oxygen-cbefs-4m.v20261126T1200Z.json": {
+   "bytes": 773994
+  },
+  "oxygen-cbefs-5m.json": {
+   "bytes": 772052,
+   "sha256": "1ed76d19e7bd9701a23bb8c6969a09f944a78229a4a01310ab342bd209aecdb5"
+  },
+  "oxygen-cbefs-5m.v20261126T1200Z.json": {
+   "bytes": 771305
+  },
+  "oxygen-cbefs-6m.json": {
+   "bytes": 769205,
+   "sha256": "1bc28bc51a2005143c8e1ba16642eecf4b1f6eddca9d9bcfb12d8194a3d3b9d7"
+  },
+  "oxygen-cbefs-6m.v20261126T1200Z.json": {
+   "bytes": 768458
+  },
+  "oxygen-cbefs-8m.json": {
+   "bytes": 766494,
+   "sha256": "d477961a88d111753c2fbca44732407558ced3f479c40bc9d06a26a810e20371"
+  },
+  "oxygen-cbefs-8m.v20261126T1200Z.json": {
+   "bytes": 765747
+  }
+ }
+}

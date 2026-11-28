@@ -1,0 +1,136 @@
+{
+ "schema": 1,
+ "product": "aragonite-cbefs",
+ "title": "CBEFS aragonite saturation at Mercator's depths",
+ "fate": "held",
+ "reason": "step cbefs: upstream failed \u2014 ! the VIMS THREDDS server failed after 5 tries: HTTP 503 for https://tds.vims.edu/thredds/catalog/abever/ECB_FORECAST_HR/AVERAGES/catalog.xml",
+ "checked": "2026-11-26T19:33:37Z",
+ "updated": "2026-11-26T19:33:37Z",
+ "hour": "2026-11-26T12:00:00Z",
+ "modelRun": "2026-11-26T00:00:00Z",
+ "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+ "hours": [
+  "2026-11-26T12:00:00Z"
+ ],
+ "files": {
+  "aragonite-cbefs-0m.json": {
+   "bytes": 778113,
+   "sha256": "b0244c9e6c42725c34aadb34d0d89019ec257683cef05857d564ef4d771b1de9"
+  },
+  "aragonite-cbefs-0m.v20261126T1200Z.json": {
+   "bytes": 777354
+  },
+  "aragonite-cbefs-10m.json": {
+   "bytes": 760948,
+   "sha256": "5505cc6a3b34846c2701acbcdbd29c4e8b529ad724d022b023e114fdf58d2f8a"
+  },
+  "aragonite-cbefs-10m.v20261126T1200Z.json": {
+   "bytes": 760185
+  },
+  "aragonite-cbefs-11m.json": {
+   "bytes": 758509,
+   "sha256": "85f4f4956766d0d6fc340d202ea193bc59ec1bdc4c7a7d2089fc85840c918a48"
+  },
+  "aragonite-cbefs-11m.v20261126T1200Z.json": {
+   "bytes": 757746
+  },
+  "aragonite-cbefs-13m.json": {
+   "bytes": 755467,
+   "sha256": "1a6d9a6512d8fd47307924a486db4763db4d10f138f810bee8871741a69107df"
+  },
+  "aragonite-cbefs-13m.v20261126T1200Z.json": {
+   "bytes": 754704
+  },
+  "aragonite-cbefs-16m.json": {
+   "bytes": 752691,
+   "sha256": "9b7a92d1a6539cc51d26917db3714e69f575b5dab7ac284273ce407cfafc7ae9"
+  },
+  "aragonite-cbefs-16m.v20261126T1200Z.json": {
+   "bytes": 751928
+  },
+  "aragonite-cbefs-18m.json": {
+   "bytes": 750109,
+   "sha256": "67f0fa4cc9a31d74c1b11fcc124ce5fe8edbd1478a51aeeb38121bdee487f11a"
+  },
+  "aragonite-cbefs-18m.v20261126T1200Z.json": {
+   "bytes": 749346
+  },
+  "aragonite-cbefs-22m.json": {
+   "bytes": 747349,
+   "sha256": "e817261ea9feb5b0546b8ea7c1ba32ca1d5ed988361fbd2ba11d11125dbb7314"
+  },
+  "aragonite-cbefs-22m.v20261126T1200Z.json": {
+   "bytes": 746586
+  },
+  "aragonite-cbefs-25m.json": {
+   "bytes": 744576,
+   "sha256": "c9e75efe6481b2520cdd76ae7f52e2e5e74e74d87bec3989bff66e753b6aa099"
+  },
+  "aragonite-cbefs-25m.v20261126T1200Z.json": {
+   "bytes": 743813
+  },
+  "aragonite-cbefs-29m.json": {
+   "bytes": 741060,
+   "sha256": "72f4e8454a1a8d74459344d227937d627938e56c9a325a538feacceede8540bf"
+  },
+  "aragonite-cbefs-29m.v20261126T1200Z.json": {
+   "bytes": 740297
+  },
+  "aragonite-cbefs-2m.json": {
+   "bytes": 776009,
+   "sha256": "c0d9d9c129764138ddd95a363c0675ffe3fe759e7ebbc42a124154428d247ea8"
+  },
+  "aragonite-cbefs-2m.v20261126T1200Z.json": {
+   "bytes": 775250
+  },
+  "aragonite-cbefs-34m.json": {
+   "bytes": 737939,
+   "sha256": "1f67f9ea1f7951259edb85bb3cbc6913bd7c44c83ee9d7e1ae1b01cc8e2c7d2a"
+  },
+  "aragonite-cbefs-34m.v20261126T1200Z.json": {
+   "bytes": 737176
+  },
+  "aragonite-cbefs-3m.json": {
+   "bytes": 772835,
+   "sha256": "345b6b3e178be396da1c584270845ef209a0c9139b0039cffca49b6b673233d1"
+  },
+  "aragonite-cbefs-3m.v20261126T1200Z.json": {
+   "bytes": 772076
+  },
+  "aragonite-cbefs-40m.json": {
+   "bytes": 737004,
+   "sha256": "5d591620c90a5f4659b7bb20707f7cb531861edf64de8cac1120d13824d26f0e"
+  },
+  "aragonite-cbefs-40m.v20261126T1200Z.json": {
+   "bytes": 736241
+  },
+  "aragonite-cbefs-4m.json": {
+   "bytes": 770493,
+   "sha256": "5a18361d1f28304160615c79d87f7bd0642431097166ed06311d969420a1fc3f"
+  },
+  "aragonite-cbefs-4m.v20261126T1200Z.json": {
+   "bytes": 769734
+  },
+  "aragonite-cbefs-5m.json": {
+   "bytes": 768166,
+   "sha256": "b5a854d83e15298a23f46a03e56c697af831c9f4eab333c77cbf59b84fa1f701"
+  },
+  "aragonite-cbefs-5m.v20261126T1200Z.json": {
+   "bytes": 767407
+  },
+  "aragonite-cbefs-6m.json": {
+   "bytes": 765606,
+   "sha256": "fc8fa2e7f6dc072684737891bfd5b0f4684fcbc0c9934450fb415adcfd82b1d3"
+  },
+  "aragonite-cbefs-6m.v20261126T1200Z.json": {
+   "bytes": 764847
+  },
+  "aragonite-cbefs-8m.json": {
+   "bytes": 763232,
+   "sha256": "9ae061303697a2262026963176066f9a766953375aa041e37101d3ef1829b33a"
+  },
+  "aragonite-cbefs-8m.v20261126T1200Z.json": {
+   "bytes": 762473
+  }
+ }
+}

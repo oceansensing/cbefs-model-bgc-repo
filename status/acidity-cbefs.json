@@ -1,0 +1,136 @@
+{
+ "schema": 1,
+ "product": "acidity-cbefs",
+ "title": "CBEFS pH at Mercator's depths",
+ "fate": "held",
+ "reason": "step cbefs: upstream failed \u2014 ! the VIMS THREDDS server failed after 5 tries: HTTP 503 for https://tds.vims.edu/thredds/catalog/abever/ECB_FORECAST_HR/AVERAGES/catalog.xml",
+ "checked": "2026-11-26T19:33:37Z",
+ "updated": "2026-11-26T19:33:37Z",
+ "hour": "2026-11-26T12:00:00Z",
+ "modelRun": "2026-11-26T00:00:00Z",
+ "source": "Chesapeake Bay Environmental Forecast System (CBEFS), Virginia Institute of Marine Science",
+ "hours": [
+  "2026-11-26T12:00:00Z"
+ ],
+ "files": {
+  "acidity-cbefs-0m.json": {
+   "bytes": 778158,
+   "sha256": "78a01ddc8b737a540672a9e5f0b600ae410fbcbf9d277b7fb9f9c2ed7259ff9b"
+  },
+  "acidity-cbefs-0m.v20261126T1200Z.json": {
+   "bytes": 777407
+  },
+  "acidity-cbefs-10m.json": {
+   "bytes": 761043,
+   "sha256": "ec71610321cb4bc7f3e179944bbd5efa6125c04b7980556c0ff921088502ce9c"
+  },
+  "acidity-cbefs-10m.v20261126T1200Z.json": {
+   "bytes": 760288
+  },
+  "acidity-cbefs-11m.json": {
+   "bytes": 758479,
+   "sha256": "b91fecf1991e1176a97cbb6147911b4b296de089c8a94a3cd50f9909ce19b378"
+  },
+  "acidity-cbefs-11m.v20261126T1200Z.json": {
+   "bytes": 757724
+  },
+  "acidity-cbefs-13m.json": {
+   "bytes": 755498,
+   "sha256": "ff8bdc15c42a7815257694090f9023219ded7cc9644c96b81a9aacd5ca1966bf"
+  },
+  "acidity-cbefs-13m.v20261126T1200Z.json": {
+   "bytes": 754743
+  },
+  "acidity-cbefs-16m.json": {
+   "bytes": 752768,
+   "sha256": "465dcb21e68dba71dbf832f1d81271c55faa66673d215209d03a6b824aa93571"
+  },
+  "acidity-cbefs-16m.v20261126T1200Z.json": {
+   "bytes": 752013
+  },
+  "acidity-cbefs-18m.json": {
+   "bytes": 750196,
+   "sha256": "bd8ee56f93493a10af13bfb3ba5a7629777eb1fff4707231b634bdb6416edaa2"
+  },
+  "acidity-cbefs-18m.v20261126T1200Z.json": {
+   "bytes": 749441
+  },
+  "acidity-cbefs-22m.json": {
+   "bytes": 747313,
+   "sha256": "2513034e8eb90b8a9249949bc200123e0b6e8078448c00bd1f3fc0e859bbe80d"
+  },
+  "acidity-cbefs-22m.v20261126T1200Z.json": {
+   "bytes": 746558
+  },
+  "acidity-cbefs-25m.json": {
+   "bytes": 744594,
+   "sha256": "93eda8cc6246d6f6a266b612b4587f5a9a39bdf571276bad3d2533127a47e8cb"
+  },
+  "acidity-cbefs-25m.v20261126T1200Z.json": {
+   "bytes": 743839
+  },
+  "acidity-cbefs-29m.json": {
+   "bytes": 741102,
+   "sha256": "8eeefb58bc7354d13579623f1a58cca94b2b8381b7b6d0307cbc955b49d183e4"
+  },
+  "acidity-cbefs-29m.v20261126T1200Z.json": {
+   "bytes": 740347
+  },
+  "acidity-cbefs-2m.json": {
+   "bytes": 776160,
+   "sha256": "baf296d2de82dce461ff1db34a3cff8b24b0208f827de6b78617c4c0388b543e"
+  },
+  "acidity-cbefs-2m.v20261126T1200Z.json": {
+   "bytes": 775409
+  },
+  "acidity-cbefs-34m.json": {
+   "bytes": 737907,
+   "sha256": "b41ffefac9fae2745aac66cc54455422b0687665581de4893e8dee579870b6bd"
+  },
+  "acidity-cbefs-34m.v20261126T1200Z.json": {
+   "bytes": 737152
+  },
+  "acidity-cbefs-3m.json": {
+   "bytes": 772947,
+   "sha256": "89a7226d0145ed4d717e9ee953986c4865e539eed14d4f71fba5ff76e77a0eb3"
+  },
+  "acidity-cbefs-3m.v20261126T1200Z.json": {
+   "bytes": 772196
+  },
+  "acidity-cbefs-40m.json": {
+   "bytes": 736997,
+   "sha256": "e79b5c38908e3fb82681f3064ab658fe22f75fdf8449c2bd3d84ec3f803b7639"
+  },
+  "acidity-cbefs-40m.v20261126T1200Z.json": {
+   "bytes": 736242
+  },
+  "acidity-cbefs-4m.json": {
+   "bytes": 770557,
+   "sha256": "34f9a759bdc5d7cc2e4f3d2e8442fba8e8ee15e9c9029cf77991011724b78c02"
+  },
+  "acidity-cbefs-4m.v20261126T1200Z.json": {
+   "bytes": 769806
+  },
+  "acidity-cbefs-5m.json": {
+   "bytes": 768185,
+   "sha256": "1a554a45b506a223d41eb4d2aa1319bd4ef806eeb0be5359016f783b4d742a36"
+  },
+  "acidity-cbefs-5m.v20261126T1200Z.json": {
+   "bytes": 767434
+  },
+  "acidity-cbefs-6m.json": {
+   "bytes": 765727,
+   "sha256": "30c11081c6c7bcb6b50af78f77a1f4dce507ec48bfa6d0fcbe6d7485d840f013"
+  },
+  "acidity-cbefs-6m.v20261126T1200Z.json": {
+   "bytes": 764976
+  },
+  "acidity-cbefs-8m.json": {
+   "bytes": 763336,
+   "sha256": "a9536ce78fddfde332bd40bd58c39707cd073778fdfa7c52cdd11520a08ffbdb"
+  },
+  "acidity-cbefs-8m.v20261126T1200Z.json": {
+   "bytes": 762585
+  }
+ }
+}
